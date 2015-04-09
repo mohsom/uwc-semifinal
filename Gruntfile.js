@@ -106,10 +106,6 @@ module.exports = function (grunt) {
             }
         },
         validation: {
-            options: {
-                reset: grunt.option('reset') || false,
-                stoponerror: true
-            },
             files: {
                 src: ['*.html']
             }
