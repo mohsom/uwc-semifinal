@@ -13,6 +13,7 @@
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-html-validation":"latest",
+    "grunt-scss-lint":"latest",
     "bower":"latest"
   }
 }

@@ -41,66 +41,66 @@ module.exports = function (grunt) {
             }
         },
         concat: {
-            js:{
-                src:['js/script.js'],
-                dest:'build/js/script.js'
+            js: {
+                src: ['js/script.js'],
+                dest: 'build/js/script.js'
             }
         },
 
-        clean:{
-            build:['build']
+        clean: {
+            build: ['build']
         },
         sass: {
             dist: {
                 files: {
-                    'styles/css/style.css':'styles/sass/style.scss'
+                    'styles/css/style.css': 'styles/sass/style.scss'
                 }
             }
         },
 
-        connect:{
+        connect: {
 
-            options:{
-                port:3000,
-                hostname:'localhost',
-                livereload:35719
+            options: {
+                port: 3000,
+                hostname: 'localhost',
+                livereload: 35719
             },
 
-            livereload:{
-                options:{
-                    open:true
+            livereload: {
+                options: {
+                    open: true
                 }
             }
         },
 
         watch: {
-            scss:{
-                files:['styles/sass/*.scss'],
-                tasks:['sass']
+            scss: {
+                files: ['styles/sass/*.scss'],
+                tasks: ['scsslint','sass']
                 //options:{
                 //    livereload: '<%= connect.options.livereload %>',
                 //}
             },
-            css:{
-                files:['styles/css/*.css']
+            css: {
+                files: ['styles/css/*.css']
             },
-            html:{
-                files:['index.html'],
-                tasks:['validation']
+            html: {
+                files: ['index.html'],
+                tasks: ['validation']
             },
-            js:{
-                files:['js/*.js','Gruntfile.js']
+            js: {
+                files: ['js/*.js', 'Gruntfile.js']
             },
-            options:{
+            options: {
                 //livereload: '<%= connect.options.livereload %>'
             },
-            livereload:{
-                files:[
+            livereload: {
+                files: [
                     'styles/css/*.css',
                     '<%=watch.html.files%>',
                     '<%=watch.js.files%>'
                 ],
-                options:{
+                options: {
                     livereload: '<%= connect.options.livereload %>'
                 }
             }
@@ -108,6 +108,17 @@ module.exports = function (grunt) {
         validation: {
             files: {
                 src: ['*.html']
+            }
+        },
+        scsslint: {
+            allFiles: [
+                'styles/sass/*.scss'
+            ],
+            options: {
+                bundleExec: true,
+                config: '.scss-lint.yml',
+                reporterOutput: 'scss-lint-report.xml',
+                colorizeOutput: true
             }
         }
     });
@@ -121,7 +132,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-scss-lint');
     grunt.loadNpmTasks('grunt-html-validation');
-    grunt.registerTask('build', ['clean:build', 'sass','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
-    grunt.registerTask('serve', ['sass','connect','watch']);
+    grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin', 'concat:js', 'uglify']);
+    grunt.registerTask('serve', ['sass', 'connect', 'watch']);
 };
