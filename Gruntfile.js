@@ -85,7 +85,8 @@ module.exports = function (grunt) {
                 files:['styles/css/*.css']
             },
             html:{
-                files:['index.html']
+                files:['index.html'],
+                tasks:['validation']
             },
             js:{
                 files:['js/*.js','Gruntfile.js']
@@ -103,6 +104,15 @@ module.exports = function (grunt) {
                     livereload: '<%= connect.options.livereload %>'
                 }
             }
+        },
+        validation: {
+            options: {
+                reset: grunt.option('reset') || false,
+                stoponerror: true
+            },
+            files: {
+                src: ['*.html']
+            }
         }
     });
 
@@ -115,7 +125,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
-
+    grunt.loadNpmTasks('grunt-html-validation');
     grunt.registerTask('build', ['clean:build', 'sass','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
     grunt.registerTask('serve', ['sass','connect','watch']);
 };
