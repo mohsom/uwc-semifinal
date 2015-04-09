@@ -9,6 +9,7 @@
   "license": "MIT",
   "devDependencies": {
     "normalize.css": "latest",
-    "reset-scss":"latest"
+    "reset-scss":"latest",
+    "jquery":"latest"
   }
 }
