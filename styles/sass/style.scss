@@ -137,6 +137,14 @@ body {
             font-weight: bolder;
             font-size: 18px;
             margin-left: 60px;
+            i.fa-sort-desc{
+              font-size: 20px;
+              vertical-align: top;
+              margin-left: 10px;
+              margin-top: -5px;
+              position: absolute;
+              color: $blue;
+            }
           }
           #search{
             margin-left: -20px;
