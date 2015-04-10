@@ -28,14 +28,17 @@ body {
             margin-right: 15px;
             color: $blue;
             display: inline-block;
+            vertical-align: middle;
           }
           .title-num {
             display: inline-block;
+            vertical-align: middle;
           }
           .number {
             font-weight: bolder;
             font-size: 18px;
             display: inline-block;
+            vertical-align: middle;
             span {
                 color: #828282;
             }
