@@ -322,11 +322,17 @@ body {
         .bnrs-row {
           display: block;
           margin-bottom: 50px;
+          .top-row{
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+          }
+          .no-top{
+            border-radius: 3px;
+          }
           .bnrs-row-item {
             display: inline-block;
             width: 330px;
             height: 340px;
-            border-radius: 3px;
             vertical-align: top;
             text-align: center;
             margin-left: 70px;
@@ -358,12 +364,13 @@ body {
           }
           .no-bn {
             .no-bn-title {
+              width: 200px;
+              margin: 50px auto 0 auto;
               display: block;
               font-size: 25px;
               text-align: center;
               color: #181818;
               font-weight: bolder;
-              margin-top: 50px;
               text-transform: uppercase;
             }
             .no-bn-text {
@@ -384,9 +391,17 @@ body {
               width: 50px;
               margin: 10px auto;
               height: 0;
-              border-bottom: solid $red 5px;
+              border-bottom: solid 5px;
             }
-
+            #red{
+              border-color: $red;
+            }
+            #yellow{
+              border-color: $yellow;
+            }
+            #blue{
+              border-color: $blue;
+            }
           }
           #banner1 {
             background: url("../../img/banner1.png");

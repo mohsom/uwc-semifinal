@@ -298,11 +298,15 @@ body {
         body .page .main-content .banners .bnrs-row {
           display: block;
           margin-bottom: 50px; }
+          body .page .main-content .banners .bnrs-row .top-row {
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px; }
+          body .page .main-content .banners .bnrs-row .no-top {
+            border-radius: 3px; }
           body .page .main-content .banners .bnrs-row .bnrs-row-item {
             display: inline-block;
             width: 330px;
             height: 340px;
-            border-radius: 3px;
             vertical-align: top;
             text-align: center;
             margin-left: 70px; }
@@ -326,12 +330,13 @@ body {
                 padding: 5px;
                 background-color: #ffffff; }
           body .page .main-content .banners .bnrs-row .no-bn .no-bn-title {
+            width: 200px;
+            margin: 50px auto 0 auto;
             display: block;
             font-size: 25px;
             text-align: center;
             color: #181818;
             font-weight: bolder;
-            margin-top: 50px;
             text-transform: uppercase; }
           body .page .main-content .banners .bnrs-row .no-bn .no-bn-text {
             display: block;
@@ -349,7 +354,13 @@ body {
             width: 50px;
             margin: 10px auto;
             height: 0;
-            border-bottom: solid #e7302c 5px; }
+            border-bottom: solid 5px; }
+          body .page .main-content .banners .bnrs-row .no-bn #red {
+            border-color: #e7302c; }
+          body .page .main-content .banners .bnrs-row .no-bn #yellow {
+            border-color: #f6d416; }
+          body .page .main-content .banners .bnrs-row .no-bn #blue {
+            border-color: #01b4d5; }
           body .page .main-content .banners .bnrs-row #banner1 {
             background: url("../../img/banner1.png"); }
           body .page .main-content .banners .bnrs-row #banner2 {
