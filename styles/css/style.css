@@ -174,7 +174,7 @@ body {
             left: 0;
             right: 0;
             background-color: #ffffff;
-            visibility: hidden; }
+            visibility: visible; }
           body .page .header .menu .menu-items #with-dr:hover ul {
             visibility: visible; }
           body .page .header .menu .menu-items #search {
