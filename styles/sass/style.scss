@@ -289,6 +289,28 @@ body {
           line-height: 20px;
         }
       }
+      .bn-right{
+        display: block;
+        position: absolute;
+        float: right;
+        margin-top: -170px;
+        margin-left: 810px;
+        img{
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .bn-left{
+        display: block;
+        position: absolute;
+        float: left;
+        margin-top: -170px;
+        margin-left: -190px;
+        img{
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
     }
   }
 }

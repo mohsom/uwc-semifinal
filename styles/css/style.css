@@ -270,5 +270,23 @@ body {
           text-align: center;
           width: 580px;
           line-height: 20px; }
+      body .page .banner .bn-right {
+        display: block;
+        position: absolute;
+        float: right;
+        margin-top: -170px;
+        margin-left: 810px; }
+        body .page .banner .bn-right img {
+          display: inline-block;
+          vertical-align: middle; }
+      body .page .banner .bn-left {
+        display: block;
+        position: absolute;
+        float: left;
+        margin-top: -170px;
+        margin-left: -190px; }
+        body .page .banner .bn-left img {
+          display: inline-block;
+          vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */
