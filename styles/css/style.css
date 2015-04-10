@@ -204,7 +204,8 @@ body {
                     display: inline-block;
                     font-weight: bold;
                     vertical-align: middle;
-                    text-transform: none; }
+                    text-transform: none;
+                    margin-left: 10px; }
           body .page .header .menu .menu-items #with-dr:hover ul {
             visibility: visible; }
           body .page .header .menu .menu-items #search {
