@@ -137,7 +137,7 @@ body {
             font-weight: bolder;
             font-size: 18px;
             margin-left: 60px;
-            i.fa-sort-desc{
+            i.fa-sort-desc {
               font-size: 20px;
               vertical-align: top;
               margin-left: 10px;
@@ -146,11 +146,37 @@ body {
               color: $blue;
             }
           }
-          #search{
+          #with-dr {
+            ul {
+              display: block;
+              position: absolute;
+              z-index: 9999;
+              height: 300px;
+              max-width: 100%;
+              width: 1280px;
+              margin: 43px auto;
+              left:0;
+              right: 0;
+              background-color: #ffffff;
+              visibility: hidden;
+              li {
+                .catalog-drop {
+
+                }
+              }
+            }
+            &:hover{
+              ul{
+                visibility: visible;
+              }
+            }
+          }
+          #search {
             margin-left: -20px;
             border-color: #000000;
+            z-index: 1;
           }
-          .search-icon{
+          .search-icon {
             margin-left: -30px;
             margin-top: 7px;
             font-size: 20px;

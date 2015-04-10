@@ -163,9 +163,24 @@ body {
               margin-top: -5px;
               position: absolute;
               color: #01b4d5; }
+          body .page .header .menu .menu-items #with-dr ul {
+            display: block;
+            position: absolute;
+            z-index: 9999;
+            height: 300px;
+            max-width: 100%;
+            width: 1280px;
+            margin: 43px auto;
+            left: 0;
+            right: 0;
+            background-color: #ffffff;
+            visibility: hidden; }
+          body .page .header .menu .menu-items #with-dr:hover ul {
+            visibility: visible; }
           body .page .header .menu .menu-items #search {
             margin-left: -20px;
-            border-color: #000000; }
+            border-color: #000000;
+            z-index: 1; }
           body .page .header .menu .menu-items .search-icon {
             margin-left: -30px;
             margin-top: 7px;
