@@ -40,30 +40,30 @@ body {
             display: inline-block;
             vertical-align: middle;
             span {
-                color: #828282;
+              color: #828282;
             }
           }
         }
-        .mail{
+        .mail {
           display: inline-block;
           margin-top: -25px;
           margin-right: 185px;
           float: right;
-          i{
+          i {
             font-size: 25px;
             margin-right: 5px;
             color: $blue;
             display: inline-block;
             vertical-align: middle;
           }
-          .mail-title{
+          .mail-title {
             font-weight: bolder;
             font-size: 18px;
             display: inline-block;
             vertical-align: middle;
           }
         }
-        .drop{
+        .drop {
           float: right;
           display: inline-block;
           height: 100%;
@@ -72,25 +72,42 @@ body {
           border-right: solid #b6b6b6 1px;
           margin-top: -45px;
           margin-right: 70px;
-          i{
+          cursor: pointer;
+          &:hover {
+            ul {
+              li {
+                display: block;
+              }
+            }
+            i {
+                //transform: rotateZ(90deg);
+            }
+          }
+          i {
             font-size: 25px;
+            padding-top: 15px;
+            padding-right: 10px;
             color: $blue;
             display: inline-block;
             vertical-align: middle;
             float: right;
           }
-          ul{
+          ul {
             display: inline-block;
             text-align: center;
-            li{
-               vertical-align: middle;
-               display: none;
-               font-weight: bolder;
-               font-size: 18px;
+            li {
+              display: none;
+              font-weight: bolder;
+              font-size: 18px;
+              width: 100%;
+              height: 100%;
+              background-color: #ffffff;
+              padding-top: 25px;
+              padding-left: 15px;
             }
-            .active{
-               vertical-align: middle;
-               display: block;
+            .active {
+              vertical-align: middle;
+              display: block;
             }
           }
         }

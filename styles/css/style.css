@@ -105,9 +105,14 @@ body {
           border-left: solid #b6b6b6 1px;
           border-right: solid #b6b6b6 1px;
           margin-top: -45px;
-          margin-right: 70px; }
+          margin-right: 70px;
+          cursor: pointer; }
+          body .page .header .main-info .drop:hover ul li {
+            display: block; }
           body .page .header .main-info .drop i {
             font-size: 25px;
+            padding-top: 15px;
+            padding-right: 10px;
             color: #01b4d5;
             display: inline-block;
             vertical-align: middle;
@@ -116,10 +121,14 @@ body {
             display: inline-block;
             text-align: center; }
             body .page .header .main-info .drop ul li {
-              vertical-align: middle;
               display: none;
               font-weight: bolder;
-              font-size: 18px; }
+              font-size: 18px;
+              width: 100%;
+              height: 100%;
+              background-color: #ffffff;
+              padding-top: 25px;
+              padding-left: 15px; }
             body .page .header .main-info .drop ul .active {
               vertical-align: middle;
               display: block; }
