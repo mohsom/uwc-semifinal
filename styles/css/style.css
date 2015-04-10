@@ -293,5 +293,24 @@ body {
       width: 100%;
       height: 1750px;
       background-color: #ffffff; }
+      body .page .main-content .banners {
+        display: block; }
+        body .page .main-content .banners .bnrs-row {
+          display: block; }
+          body .page .main-content .banners .bnrs-row .bnrs-row-item {
+            display: inline-block;
+            width: 330px;
+            height: 340px;
+            border-radius: 3px;
+            vertical-align: top;
+            text-align: center; }
+          body .page .main-content .banners .bnrs-row #banner1 {
+            background: url("../../img/banner1.png"); }
+          body .page .main-content .banners .bnrs-row #banner2 {
+            background: url("../../img/banner5.png"); }
+          body .page .main-content .banners .bnrs-row #banner3 {
+            background: url("../../img/banner7.png"); }
+          body .page .main-content .banners .bnrs-row #banner4 {
+            background: url("../../img/bannner9.png"); }
 
 /*# sourceMappingURL=style.css.map */

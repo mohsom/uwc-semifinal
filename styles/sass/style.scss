@@ -177,44 +177,44 @@ body {
                         height: 50px;
                         border-radius: 50px;
                         text-align: center;
-                        img{
+                        img {
                           margin: 10px;
                         }
                       }
-                      #cr1{
+                      #cr1 {
                         background-color: #1c9bb2;
                       }
-                      #cr2{
+                      #cr2 {
                         background-color: #d4476f;
                       }
-                      #cr3{
+                      #cr3 {
                         background-color: #e7302c;
                       }
-                      #cr4{
+                      #cr4 {
                         background-color: #f6d416;
                       }
-                      #cr5{
+                      #cr5 {
                         background-color: #01b4d5;
                       }
-                      #cr6{
+                      #cr6 {
                         background-color: #d4476f;
                       }
-                      #cr7{
+                      #cr7 {
                         background-color: #e7302c;
                       }
-                      #cr8{
+                      #cr8 {
                         background-color: #4ca52d;
                       }
-                      #cr9{
+                      #cr9 {
                         background-color: #1c9bb2;
                       }
-                      #cr10{
+                      #cr10 {
                         background-color: #4ca52d;
                       }
-                      #cr11{
+                      #cr11 {
                         background-color: #1c9bb2;
                       }
-                      #cr12{
+                      #cr12 {
                         background-color: #f6d416;
                       }
                       span {
@@ -249,39 +249,39 @@ body {
         }
       }
     }
-    .banner{
+    .banner {
       background: url('../../img/banner-bg.png');
       display: block;
       width: 100%;
       height: 570px;
       padding-top: 120px;
       color: #181818;
-      .bn-block{
+      .bn-block {
         display: block;
         margin: 0 auto;
         width: 770px;
         height: 340px;
-        background-color: rgba(250,250,250,0.5);
+        background-color: rgba(250, 250, 250, 0.5);
         border-radius: 3px;
         text-align: center;
-        .bn-title{
-             display: block;
-             margin: 0 auto;
-             padding-top: 60px;
+        .bn-title {
+          display: block;
+          margin: 0 auto;
+          padding-top: 60px;
         }
-        .sub-title{
+        .sub-title {
           display: block;
           font-style: italic;
           margin-top: 30px;
         }
-        .line{
+        .line {
           display: block;
           margin: 30px auto;
           width: 120px;
           height: 0;
           border-bottom: solid $red 5px;
         }
-        .desc{
+        .desc {
           display: block;
           margin: 20px auto;
           text-align: center;
@@ -289,34 +289,63 @@ body {
           line-height: 20px;
         }
       }
-      .bn-right{
+      .bn-right {
         display: block;
         position: absolute;
         float: right;
         margin-top: -170px;
         margin-left: 810px;
-        img{
+        img {
           display: inline-block;
           vertical-align: middle;
         }
       }
-      .bn-left{
+      .bn-left {
         display: block;
         position: absolute;
         float: left;
         margin-top: -170px;
         margin-left: -190px;
-        img{
+        img {
           display: inline-block;
           vertical-align: middle;
         }
       }
     }
-    .main-content{
+    .main-content {
       display: block;
       width: 100%;
       height: 1750px;
       background-color: #ffffff;
+      .banners {
+        display: block;
+        .bnrs-row {
+          display: block;
+          .bnrs-row-item {
+            display: inline-block;
+            width: 330px;
+            height: 340px;
+            border-radius: 3px;
+            vertical-align: top;
+            text-align: center;
+            img{
+              
+            }
+          }
+          #banner1{
+               background: url("../../img/banner1.png");
+          }
+          #banner2{
+               background: url("../../img/banner5.png");
+          }
+          #banner3{
+            background: url("../../img/banner7.png");
+          }
+          #banner4{
+            background: url("../../img/bannner9.png");
+          }
+        }
+      }
     }
   }
 }
