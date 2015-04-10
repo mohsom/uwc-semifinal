@@ -177,12 +177,13 @@ body {
             visibility: visible; }
             body .page .header .menu .menu-items #with-dr ul li .catalog-drop {
               margin-top: 50px;
-              text-align: justify; }
+              width: 100%; }
               body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row {
-                display: block; }
+                display: inline-block;
+                margin-left: 120px; }
                 body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item {
-                  display: inline-block;
-                  margin-left: 150px; }
+                  display: block;
+                  margin-bottom: 30px; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item i {
                     display: inline-block;
                     vertical-align: middle;
