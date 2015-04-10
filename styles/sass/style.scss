@@ -133,10 +133,13 @@ body {
           .menu-item {
             text-transform: uppercase;
             display: inline-block;
-            margin-top: 48px;
+            margin-top: 40px;
             font-weight: bolder;
             font-size: 18px;
             margin-left: 60px;
+          }
+          #search{
+            margin-left: -20px;
           }
         }
       }
