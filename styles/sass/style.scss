@@ -63,6 +63,37 @@ body {
             vertical-align: middle;
           }
         }
+        .drop{
+          float: right;
+          display: inline-block;
+          height: 100%;
+          width: 90px;
+          border-left: solid #b6b6b6 1px;
+          border-right: solid #b6b6b6 1px;
+          margin-top: -45px;
+          margin-right: 70px;
+          i{
+            font-size: 25px;
+            color: $blue;
+            display: inline-block;
+            vertical-align: middle;
+            float: right;
+          }
+          ul{
+            display: inline-block;
+            text-align: center;
+            li{
+               vertical-align: middle;
+               display: none;
+               font-weight: bolder;
+               font-size: 18px;
+            }
+            .active{
+               vertical-align: middle;
+               display: block;
+            }
+          }
+        }
       }
     }
   }
