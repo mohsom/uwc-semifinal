@@ -334,18 +334,22 @@ body {
             .description {
               display: block;
               text-align: left;
-              margin-top: 120px;
+              margin-top: 230px;
+              margin-left: 20px;
+              line-height: 25px;
               .title {
                 color: $red;
                 text-transform: uppercase;
                 font-weight: bolder;
                 font-size: 20px;
                 background-color: #ffffff;
+                padding: 5px;
               }
               .text {
                 color: #181818;
                 font-size: 20px;
                 font-style: italic;
+                padding: 5px;
                 background-color: #ffffff;
               }
             }
