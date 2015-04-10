@@ -44,6 +44,25 @@ body {
             }
           }
         }
+        .mail{
+          display: inline-block;
+          margin-top: -25px;
+          margin-right: 185px;
+          float: right;
+          i{
+            font-size: 25px;
+            margin-right: 5px;
+            color: $blue;
+            display: inline-block;
+            vertical-align: middle;
+          }
+          .mail-title{
+            font-weight: bolder;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
       }
     }
   }

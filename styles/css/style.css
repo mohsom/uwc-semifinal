@@ -81,5 +81,21 @@ body {
             vertical-align: middle; }
             body .page .header .main-info .phone .number span {
               color: #828282; }
+        body .page .header .main-info .mail {
+          display: inline-block;
+          margin-top: -25px;
+          margin-right: 185px;
+          float: right; }
+          body .page .header .main-info .mail i {
+            font-size: 25px;
+            margin-right: 5px;
+            color: #01b4d5;
+            display: inline-block;
+            vertical-align: middle; }
+          body .page .header .main-info .mail .mail-title {
+            font-weight: bolder;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */
