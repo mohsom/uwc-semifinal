@@ -174,7 +174,7 @@ body {
             left: 0;
             right: 0;
             background-color: #ffffff;
-            visibility: visible; }
+            visibility: hidden; }
             body .page .header .menu .menu-items #with-dr ul li .catalog-drop {
               margin-top: 50px;
               width: 100%; }
