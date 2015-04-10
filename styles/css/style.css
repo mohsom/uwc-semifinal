@@ -142,16 +142,17 @@ body {
         body .page .header .menu .logo {
           display: inline-block;
           position: absolute;
-          margin-top: 5px;
+          margin-top: 15px;
           margin-left: 65px; }
         body .page .header .menu .menu-items {
           display: inline-block;
           height: 100%;
-          margin-left: 360px; }
+          margin-left: 360px;
+          cursor: pointer; }
           body .page .header .menu .menu-items .menu-item {
             text-transform: uppercase;
             display: inline-block;
-            vertical-align: middle;
+            margin-top: 48px;
             font-weight: bolder;
             font-size: 18px;
             margin-left: 60px; }

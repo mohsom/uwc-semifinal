@@ -122,17 +122,18 @@ body {
         .logo {
           display: inline-block;
           position: absolute;
-          margin-top: 5px;
+          margin-top: 15px;
           margin-left: 65px;
         }
         .menu-items {
           display: inline-block;
           height: 100%;
           margin-left: 360px;
+          cursor: pointer;
           .menu-item {
             text-transform: uppercase;
             display: inline-block;
-            vertical-align: middle;
+            margin-top: 48px;
             font-weight: bolder;
             font-size: 18px;
             margin-left: 60px;
