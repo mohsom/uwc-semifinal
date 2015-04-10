@@ -180,7 +180,7 @@ body {
               width: 100%; }
               body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row {
                 display: inline-block;
-                margin-left: 120px; }
+                margin-left: 100px; }
                 body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item {
                   display: block;
                   margin-bottom: 30px; }
@@ -192,15 +192,31 @@ body {
                     border-radius: 50px;
                     text-align: center; }
                     body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item i img {
-                      margin-top: 10px; }
+                      margin: 10px; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr1 {
                     background-color: #1c9bb2; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr2 {
-                    background-color: #f6d416; }
+                    background-color: #d4476f; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr3 {
                     background-color: #e7302c; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr4 {
+                    background-color: #f6d416; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr5 {
+                    background-color: #01b4d5; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr6 {
+                    background-color: #d4476f; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr7 {
+                    background-color: #e7302c; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr8 {
                     background-color: #4ca52d; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr9 {
+                    background-color: #1c9bb2; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr10 {
+                    background-color: #4ca52d; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr11 {
+                    background-color: #1c9bb2; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr12 {
+                    background-color: #f6d416; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item span {
                     display: inline-block;
                     font-weight: bold;
