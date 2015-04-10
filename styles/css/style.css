@@ -159,5 +159,10 @@ body {
           body .page .header .menu .menu-items #search {
             margin-left: -20px;
             border-color: #000000; }
+          body .page .header .menu .menu-items .search-icon {
+            margin-left: -30px;
+            margin-top: 7px;
+            font-size: 20px;
+            position: absolute; }
 
 /*# sourceMappingURL=style.css.map */
