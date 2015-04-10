@@ -157,6 +157,7 @@ body {
             font-size: 18px;
             margin-left: 60px; }
           body .page .header .menu .menu-items #search {
-            margin-left: -20px; }
+            margin-left: -20px;
+            border-color: #000000; }
 
 /*# sourceMappingURL=style.css.map */
