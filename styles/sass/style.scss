@@ -328,20 +328,38 @@ body {
             border-radius: 3px;
             vertical-align: top;
             text-align: center;
-            img{
+            img {
 
             }
+            .description {
+              display: block;
+              text-align: left;
+              margin-top: 120px;
+              .title {
+                color: $red;
+                text-transform: uppercase;
+                font-weight: bolder;
+                font-size: 20px;
+                background-color: #ffffff;
+              }
+              .text {
+                color: #181818;
+                font-size: 20px;
+                font-style: italic;
+                background-color: #ffffff;
+              }
+            }
           }
-          #banner1{
-               background: url("../../img/banner1.png");
+          #banner1 {
+            background: url("../../img/banner1.png");
           }
-          #banner2{
-               background: url("../../img/banner5.png");
+          #banner2 {
+            background: url("../../img/banner5.png");
           }
-          #banner3{
+          #banner3 {
             background: url("../../img/banner7.png");
           }
-          #banner4{
+          #banner4 {
             background: url("../../img/bannner9.png");
           }
         }
