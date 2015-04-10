@@ -76,7 +76,7 @@ module.exports = function (grunt) {
         watch: {
             scss: {
                 files: ['styles/sass/*.scss'],
-                tasks: ['scsslint','sass']
+                tasks: ['sass']
                 //options:{
                 //    livereload: '<%= connect.options.livereload %>',
                 //}
@@ -86,7 +86,7 @@ module.exports = function (grunt) {
             },
             html: {
                 files: ['index.html'],
-                tasks: ['validation']
+                //tasks: ['validation']
             },
             js: {
                 files: ['js/*.js', 'Gruntfile.js']
