@@ -363,8 +363,7 @@ body {
             border-color: #01b4d5; }
           body .page .main-content .banners .bnrs-row .no-bn-st {
             border: solid #bcbcbc 2px;
-            border-bottom-right-radius: 3px;
-            border-bottom-left-radius: 3px; }
+            border-radius: 3px; }
             body .page .main-content .banners .bnrs-row .no-bn-st .no-bn-st-title {
               margin: 0 auto;
               display: block;

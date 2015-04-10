@@ -323,7 +323,6 @@ body {
           display: block;
           margin-bottom: 50px;
           .top-row{
-            border-top-style: none;
             border-bottom-right-radius: 3px;
             border-bottom-left-radius: 3px;
           }
@@ -406,8 +405,7 @@ body {
           }
           .no-bn-st {
              border: solid #bcbcbc 2px;
-             border-bottom-right-radius: 3px;
-             border-bottom-left-radius: 3px;
+             border-radius: 3px;
             .no-bn-st-title {
               margin: 0 auto;
               display: block;
