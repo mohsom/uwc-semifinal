@@ -175,6 +175,36 @@ body {
             right: 0;
             background-color: #ffffff;
             visibility: visible; }
+            body .page .header .menu .menu-items #with-dr ul li .catalog-drop {
+              margin-top: 50px;
+              text-align: justify; }
+              body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row {
+                display: block; }
+                body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item {
+                  display: inline-block;
+                  margin-left: 150px; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item i {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                    text-align: center; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item i img {
+                      margin-top: 10px; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr1 {
+                    background-color: #1c9bb2; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr2 {
+                    background-color: #f6d416; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr3 {
+                    background-color: #e7302c; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr4 {
+                    background-color: #4ca52d; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item span {
+                    display: inline-block;
+                    font-weight: bold;
+                    vertical-align: middle;
+                    text-transform: none; }
           body .page .header .menu .menu-items #with-dr:hover ul {
             visibility: visible; }
           body .page .header .menu .menu-items #search {

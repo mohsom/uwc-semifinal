@@ -155,18 +155,55 @@ body {
               max-width: 100%;
               width: 1280px;
               margin: 43px auto;
-              left:0;
+              left: 0;
               right: 0;
               background-color: #ffffff;
               visibility: visible;
               li {
                 .catalog-drop {
-
+                  margin-top: 50px;
+                  text-align: justify;
+                  .catal-row {
+                    display: block;
+                    .crow-item {
+                      display: inline-block;
+                      margin-left: 150px;
+                      i {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50px;
+                        text-align: center;
+                        img{
+                          margin-top: 10px;
+                        }
+                      }
+                      #cr1{
+                        background-color: #1c9bb2;
+                      }
+                      #cr2{
+                        background-color: #f6d416;
+                      }
+                      #cr3{
+                        background-color: #e7302c;
+                      }
+                      #cr4{
+                        background-color: #4ca52d;
+                      }
+                      span {
+                        display: inline-block;
+                        font-weight: bold;
+                        vertical-align: middle;
+                        text-transform: none;
+                      }
+                    }
+                  }
                 }
               }
             }
-            &:hover{
-              ul{
+            &:hover {
+              ul {
                 visibility: visible;
               }
             }
