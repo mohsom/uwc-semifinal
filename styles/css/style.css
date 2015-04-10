@@ -109,8 +109,7 @@ body {
           cursor: pointer; }
           body .page .header .main-info .drop:hover ul li {
             display: block;
-            z-index: 9999999;
-            color: #01b4d5; }
+            z-index: 9999999; }
           body .page .header .main-info .drop i {
             font-size: 25px;
             padding-top: 15px;
@@ -142,7 +141,19 @@ body {
         border-bottom: solid #f6d416 3px; }
         body .page .header .menu .logo {
           display: inline-block;
-          margin-top: 10px;
+          position: absolute;
+          margin-top: 5px;
           margin-left: 65px; }
+        body .page .header .menu .menu-items {
+          display: inline-block;
+          height: 100%;
+          margin-left: 360px; }
+          body .page .header .menu .menu-items .menu-item {
+            text-transform: uppercase;
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: bolder;
+            font-size: 18px;
+            margin-left: 60px; }
 
 /*# sourceMappingURL=style.css.map */
