@@ -288,5 +288,10 @@ body {
         body .page .banner .bn-left img {
           display: inline-block;
           vertical-align: middle; }
+    body .page .main-content {
+      display: block;
+      width: 100%;
+      height: 1750px;
+      background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
