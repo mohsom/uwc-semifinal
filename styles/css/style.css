@@ -296,7 +296,8 @@ body {
       body .page .main-content .banners {
         display: block; }
         body .page .main-content .banners .bnrs-row {
-          display: block; }
+          display: block;
+          margin-bottom: 50px; }
           body .page .main-content .banners .bnrs-row .bnrs-row-item {
             display: inline-block;
             width: 330px;
@@ -330,12 +331,16 @@ body {
             text-align: center;
             color: #181818;
             font-weight: bolder;
-            margin-top: 50px; }
+            margin-top: 50px;
+            text-transform: uppercase; }
           body .page .main-content .banners .bnrs-row .no-bn .no-bn-text {
             display: block;
             text-align: center;
             color: #181818;
-            margin-top: 10px; }
+            margin: 10px auto;
+            font-size: 18px;
+            line-height: 30px;
+            width: 250px; }
           body .page .main-content .banners .bnrs-row .no-bn img {
             display: block;
             margin: 5px auto; }
