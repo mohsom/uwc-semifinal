@@ -518,7 +518,38 @@ body {
           text-align: center;
         }
         .sbs-form {
-
+          display: block;
+          width: 100%;
+          margin-top: 30px;
+          text-align: center;
+          .form-group {
+            display: inline-block;
+            margin-left: 40px;
+            #mail, #name {
+              width: 419px;
+              height: 55px;
+              border-radius: 3px;
+              border: solid #ffffff 2px;
+              background-color: rgba(0, 0, 0, 0);
+              color: #ffffff;
+              font-size: 17px;
+            }
+            #mail::-webkit-input-placeholder, #name::-webkit-input-placeholder {
+              color: #ffffff;
+            }
+          }
+          #subscribe {
+            display: inline-block;
+            background-color: rgba(250, 250, 250, 1);
+            width: 225px;
+            height: 55px;
+            border-radius: 3px;
+            border: solid #ffffff 2px;
+            margin-left: 40px;
+            color: #585757;
+            font-size: 20px;
+            font-weight: bold;
+          }
         }
       }
     }
