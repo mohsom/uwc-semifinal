@@ -515,7 +515,13 @@ body {
             body .page .main-content .social-networks .sw-items .sw-item .sw-item-title {
               display: inline-block; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-button {
-              display: inline-block; }
+              display: inline-block;
+              color: #ffffff;
+              font-size: 20px;
+              height: 40px;
+              border-radius: 3px;
+              padding: 10px;
+              cursor: pointer; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-button i {
                 display: inline-block; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-button .sw-bt-add {
