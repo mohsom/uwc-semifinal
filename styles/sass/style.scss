@@ -807,16 +807,43 @@ body {
             height: 40px;
             cursor: pointer;
             border-left: solid #ffffff 4px;
-            span{
+            span {
               display: block;
               height: 100%;
               padding-top: 13px;
               padding-left: 23px;
             }
           }
-          .lfbl-menu-item:hover{
+          .lfbl-menu-item:hover {
             background-color: #f3f3f3;
             border-left: solid $blue 4px;
+          }
+        }
+        .config {
+          .cnfg-top {
+            display: block;
+            width: 220px;
+            padding-top: 40px;
+            border-top: solid #000000 1px;
+            .cnfg-title {
+              display: inline-block;
+              text-transform: uppercase;
+              font-size: 18px;
+              font-weight: bold;
+              vertical-align: middle;
+            }
+            .cnfg-reset {
+              display: inline-block;
+              vertical-align: middle;
+              color: #545454;
+              margin-left: 15px;
+              i{
+                font-size: 30px;
+                margin-left: 10px;
+                vertical-align: middle;
+                cursor: pointer;
+              }
+            }
           }
         }
       }

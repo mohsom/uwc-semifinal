@@ -701,5 +701,26 @@ body {
           body .page .body .left-block .lfbl-menu .lfbl-menu-item:hover {
             background-color: #f3f3f3;
             border-left: solid #01b4d5 4px; }
+        body .page .body .left-block .config .cnfg-top {
+          display: block;
+          width: 220px;
+          padding-top: 40px;
+          border-top: solid #000000 1px; }
+          body .page .body .left-block .config .cnfg-top .cnfg-title {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            vertical-align: middle; }
+          body .page .body .left-block .config .cnfg-top .cnfg-reset {
+            display: inline-block;
+            vertical-align: middle;
+            color: #545454;
+            margin-left: 15px; }
+            body .page .body .left-block .config .cnfg-top .cnfg-reset i {
+              font-size: 30px;
+              margin-left: 10px;
+              vertical-align: middle;
+              cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
