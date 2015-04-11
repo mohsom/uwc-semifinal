@@ -732,6 +732,18 @@ body {
                 margin-top: 20px; }
                 body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-desc span {
                   font-weight: bold; }
+              body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .bn-price {
+                display: block;
+                width: 160px;
+                height: 50px;
+                background-color: #e7302c;
+                border-radius: 30px;
+                padding-top: 10px;
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 100px; }
           body .page .body .right-block .ctg-banners #bn2 {
             background: url("../../img/ctbn2.png"); }
       body .page .body .left-block {
