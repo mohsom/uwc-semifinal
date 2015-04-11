@@ -762,6 +762,31 @@ body {
                   color: #e7302c;
                   font-weight: bold;
                   text-transform: uppercase; }
+        body .page .body .right-block .products {
+          display: block;
+          width: 100%; }
+          body .page .body .right-block .products .row {
+            margin-top: 35px;
+            width: 100%; }
+            body .page .body .right-block .products .row .col-xs-6 {
+              display: block; }
+              body .page .body .right-block .products .row .col-xs-6 .thumbnail {
+                display: block;
+                width: 260px;
+                height: 295px; }
+              body .page .body .right-block .products .row .col-xs-6 .tr-desc {
+                width: 100%;
+                font-weight: bold;
+                margin-top: 20px; }
+                body .page .body .right-block .products .row .col-xs-6 .tr-desc .tr-text {
+                  display: block;
+                  width: 100%;
+                  margin-bottom: 10px; }
+                body .page .body .right-block .products .row .col-xs-6 .tr-desc .tr-price {
+                  display: block;
+                  color: #e7302c;
+                  width: 100%;
+                  font-size: 25px; }
       body .page .body .left-block {
         display: inline-block;
         width: 265px;

@@ -858,11 +858,11 @@ body {
               .ctg-bn-desc {
                 display: block;
                 margin-top: 20px;
-                span{
+                span {
                   font-weight: bold;
                 }
               }
-              .bn-price{
+              .bn-price {
                 display: block;
                 width: 160px;
                 height: 50px;
@@ -879,22 +879,54 @@ body {
           }
           #bn2 {
             background: url('../../img/ctbn2.png');
-            .ctg-bn-cnt{
+            .ctg-bn-cnt {
               position: absolute;
               font-size: 20px;
               margin-top: 240px;
               margin-left: 30px;
               width: 235px;
-                 span{
-                   background-color: white;
-                   font-style: italic;
-                   span{
-                     font-style: normal;
-                     color: $red;
-                     font-weight: bold;
-                     text-transform: uppercase;
-                   }
-                 }
+              span {
+                background-color: white;
+                font-style: italic;
+                span {
+                  font-style: normal;
+                  color: $red;
+                  font-weight: bold;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+        }
+        .products {
+          display: block;
+          width: 100%;
+          .row {
+            margin-top: 35px;
+            width: 100%;
+            .col-xs-6 {
+              display: block;
+              .thumbnail {
+                display: block;
+                width: 260px;
+                height: 295px;
+              }
+              .tr-desc{
+                width: 100%;
+                font-weight: bold;
+                margin-top: 20px;
+                .tr-text{
+                  display: block;
+                  width: 100%;
+                  margin-bottom: 10px;
+                }
+                .tr-price{
+                  display: block;
+                  color: $red;
+                  width: 100%;
+                  font-size: 25px;
+                }
+              }
             }
           }
         }
