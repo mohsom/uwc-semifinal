@@ -769,12 +769,24 @@ body {
         }
       }
     }
-    .body{
-        .breadcrumb{
-          background-color: #ffffff;
-          margin-top: 45px;
-          margin-left: 70px;
-        }
+    .body {
+      display: block;
+      width: 100%;
+      .breadcrumb {
+        background-color: #ffffff;
+        margin-top: 45px;
+        margin-left: 70px;
+      }
+      .right-block {
+        display: inline-block;
+        width: 855px;
+        float: right;
+      }
+      .left-block {
+        display: inline-block;
+        width: 265px;
+        float: left;
+      }
     }
   }
 }
