@@ -492,5 +492,19 @@ body {
         display: block;
         width: 100%;
         height: 285px; }
+        body .page .main-content .social-networks .sw-title {
+          display: block;
+          text-align: center;
+          width: 100%;
+          padding-top: 30px; }
+          body .page .main-content .social-networks .sw-title span {
+            font-size: 25px;
+            color: #000000;
+            text-transform: uppercase;
+            font-weight: bold;
+            vertical-align: middle; }
+          body .page .main-content .social-networks .sw-title img {
+            vertical-align: middle;
+            margin: 20px; }
 
 /*# sourceMappingURL=style.css.map */
