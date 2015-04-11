@@ -256,6 +256,7 @@ body {
       height: 570px;
       padding-top: 120px;
       color: #181818;
+      z-index: 999;
       .bn-block {
         display: block;
         margin: 0 auto;
@@ -323,16 +324,16 @@ body {
           display: block;
           margin-bottom: 50px;
           .top-row{
-            border-bottom-right-radius: 3px;
-            border-bottom-left-radius: 3px;
+            
           }
           .no-top{
-            border-radius: 3px;
+
           }
           .bnrs-row-item {
             display: inline-block;
-            width: 330px;
-            height: 340px;
+            border-radius: 3px;
+            width: 350px;
+            height: 400px;
             vertical-align: top;
             text-align: center;
             margin-left: 70px;
@@ -342,7 +343,7 @@ body {
             .description {
               display: block;
               text-align: left;
-              margin-top: 230px;
+              margin-top: 290px;
               margin-left: 20px;
               line-height: 25px;
               .title {
