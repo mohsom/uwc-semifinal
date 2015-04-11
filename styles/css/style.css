@@ -722,5 +722,25 @@ body {
               margin-left: 10px;
               vertical-align: middle;
               cursor: pointer; }
+        body .page .body .left-block .config .cnfg-main {
+          display: block;
+          width: 100%; }
+          body .page .body .left-block .config .cnfg-main .chbox {
+            display: block; }
+            body .page .body .left-block .config .cnfg-main .chbox .checkbox {
+              content: '';
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              background-color: #c8c8c8;
+              cursor: pointer; }
+            body .page .body .left-block .config .cnfg-main .chbox .ch-active {
+              background-color: #01b4d5;
+              color: white;
+              font-size: 20px;
+              text-align: center;
+              padding-top: 2px; }
+            body .page .body .left-block .config .cnfg-main .chbox .cb-label {
+              display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

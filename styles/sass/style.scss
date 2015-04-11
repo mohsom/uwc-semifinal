@@ -837,11 +837,36 @@ body {
               vertical-align: middle;
               color: #545454;
               margin-left: 15px;
-              i{
+              i {
                 font-size: 30px;
                 margin-left: 10px;
                 vertical-align: middle;
                 cursor: pointer;
+              }
+            }
+          }
+          .cnfg-main {
+            display: block;
+            width: 100%;
+            .chbox {
+              display: block;
+              .checkbox {
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-color: #c8c8c8;
+                cursor: pointer;
+              }
+              .ch-active {
+                background-color: $blue;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                padding-top: 2px;
+              }
+              .cb-label {
+                display: inline-block;
               }
             }
           }
