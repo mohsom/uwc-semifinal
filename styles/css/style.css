@@ -400,5 +400,25 @@ body {
             background: url("../../img/banner7.png"); }
           body .page .main-content .banners .bnrs-row #banner4 {
             background: url("../../img/bannner9.png"); }
+      body .page .main-content .news .news-title {
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-top: 20px; }
+      body .page .main-content .news .news-block {
+        display: block;
+        width: 100%;
+        margin: 20px auto; }
+        body .page .main-content .news .news-block .news-item {
+          display: inline-block;
+          width: 250px; }
+          body .page .main-content .news .news-block .news-item .news-item-title {
+            font-weight: bold;
+            font-size: 20px;
+            text-transform: uppercase;
+            display: block; }
+          body .page .main-content .news .news-block .news-item .news-item-text {
+            display: block;
+            margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */

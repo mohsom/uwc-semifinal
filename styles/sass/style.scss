@@ -326,10 +326,10 @@ body {
         .bnrs-row {
           display: block;
           margin-bottom: 50px;
-          .top-row{
+          .top-row {
 
           }
-          .no-top{
+          .no-top {
 
           }
           .bnrs-row-item {
@@ -386,30 +386,30 @@ body {
               line-height: 30px;
               width: 250px;
             }
-            img{
+            img {
               display: block;
               margin: 5px auto;
             }
-            .no-bn-line{
+            .no-bn-line {
               display: block;
               width: 50px;
               margin: 10px auto;
               height: 0;
               border-bottom: solid 5px;
             }
-            #red{
+            #red {
               border-color: $red;
             }
-            #yellow{
+            #yellow {
               border-color: $yellow;
             }
-            #blue{
+            #blue {
               border-color: $blue;
             }
           }
           .no-bn-st {
-             border: solid #bcbcbc 2px;
-             border-radius: 3px;
+            border: solid #bcbcbc 2px;
+            border-radius: 3px;
             .no-bn-st-title {
               margin: 0 auto;
               display: block;
@@ -427,16 +427,16 @@ body {
               font-size: 18px;
               line-height: 30px;
               width: 250px;
-              span{
+              span {
                 font-weight: bold;
                 text-transform: uppercase;
               }
             }
-            img{
+            img {
               display: block;
               margin: 5px auto;
             }
-            .no-bn-sts-line{
+            .no-bn-sts-line {
               display: block;
               width: 50px;
               margin: 10px auto;
@@ -455,6 +455,33 @@ body {
           }
           #banner4 {
             background: url("../../img/bannner9.png");
+          }
+        }
+      }
+      .news {
+        .news-title {
+          text-align: center;
+          width: 100%;
+          display: block;
+          padding-top: 20px;
+        }
+        .news-block {
+          display: block;
+          width: 100%;
+          margin: 20px auto;
+          .news-item {
+            display: inline-block;
+            width: 250px;
+            .news-item-title {
+              font-weight: bold;
+              font-size: 20px;
+              text-transform: uppercase;
+              display: block;
+            }
+            .news-item-text {
+               display: block;
+               margin-top: 10px;
+            }
           }
         }
       }
