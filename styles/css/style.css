@@ -658,5 +658,9 @@ body {
           margin-top: 25px;
           font-size: 14px;
           color: #c3c3c3; }
+    body .page .body .breadcrumb {
+      background-color: #ffffff;
+      margin-top: 45px;
+      margin-left: 70px; }
 
 /*# sourceMappingURL=style.css.map */
