@@ -672,6 +672,22 @@ body {
         display: inline-block;
         width: 855px;
         float: right; }
+        body .page .body .right-block .rbl-top .rbl-title span {
+          font-weight: bold; }
+        body .page .body .right-block .ctg-banners {
+          display: block;
+          width: 100%;
+          margin-top: 35px; }
+          body .page .body .right-block .ctg-banners .ctg-banner {
+            display: inline-block;
+            width: 407px;
+            height: 350px;
+            border-radius: 3px; }
+          body .page .body .right-block .ctg-banners #bn1 {
+            background: url("../../img/ctbn1.png");
+            margin-right: 30px; }
+          body .page .body .right-block .ctg-banners #bn2 {
+            background: url("../../img/ctbn2.png"); }
       body .page .body .left-block {
         display: inline-block;
         width: 265px;
