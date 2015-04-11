@@ -156,7 +156,8 @@ body {
             margin-top: 40px;
             font-weight: bolder;
             font-size: 18px;
-            margin-left: 60px; }
+            margin-left: 60px;
+            height: 100%; }
             body .page .header .menu .menu-items .menu-item i.fa-sort-desc {
               font-size: 20px;
               vertical-align: top;
@@ -175,7 +176,8 @@ body {
             left: 0;
             right: 0;
             background-color: #ffffff;
-            visibility: hidden; }
+            visibility: hidden;
+            cursor: default; }
             body .page .header .menu .menu-items #with-dr ul li .catalog-drop {
               margin-top: 50px;
               width: 100%; }
@@ -184,7 +186,8 @@ body {
                 margin-left: 100px; }
                 body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item {
                   display: block;
-                  margin-bottom: 30px; }
+                  margin-bottom: 30px;
+                  cursor: pointer; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item i {
                     display: inline-block;
                     vertical-align: middle;

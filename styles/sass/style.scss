@@ -138,6 +138,7 @@ body {
             font-weight: bolder;
             font-size: 18px;
             margin-left: 60px;
+            height: 100%;
             i.fa-sort-desc {
               font-size: 20px;
               vertical-align: top;
@@ -160,6 +161,7 @@ body {
               right: 0;
               background-color: #ffffff;
               visibility: hidden;
+              cursor: default;
               li {
                 .catalog-drop {
                   margin-top: 50px;
@@ -170,6 +172,7 @@ body {
                     .crow-item {
                       display: block;
                       margin-bottom: 30px;
+                      cursor: pointer;
                       i {
                         display: inline-block;
                         vertical-align: middle;
