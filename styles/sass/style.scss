@@ -632,9 +632,15 @@ body {
               }
             }
             .sw-num {
+              #int{
+                span{
+                  margin-left: 140px;
+                }
+              }
               a.tooltips {
                 position: relative;
                 display: inline;
+                font-weight: bold;
               }
               a.tooltips span {
                 position: absolute;
@@ -677,8 +683,8 @@ body {
                 opacity: 1;
                 left: 100%;
                 top: 50%;
-                margin-top: -14.5px;
-                margin-left: 30px;
+                margin-top: -40px;
+                margin-left: 180px;
                 z-index: 999;
               }
             }
