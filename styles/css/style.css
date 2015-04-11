@@ -86,7 +86,8 @@ body {
           display: inline-block;
           margin-top: -25px;
           margin-right: 185px;
-          float: right; }
+          float: right;
+          cursor: pointer; }
           body .page .header .main-info .mail i {
             font-size: 25px;
             margin-right: 5px;
@@ -602,6 +603,34 @@ body {
         display: block;
         height: 125px;
         border-bottom: solid #c3c3c3 1px; }
+        body .page .footer .ft-menu .write-lttr {
+          padding-top: 50px;
+          padding-left: 85px;
+          text-transform: uppercase;
+          cursor: pointer; }
+          body .page .footer .ft-menu .write-lttr i {
+            font-size: 25px;
+            margin-right: 5px;
+            color: #01b4d5;
+            display: inline-block;
+            vertical-align: middle; }
+          body .page .footer .ft-menu .write-lttr .mail-title {
+            font-weight: bolder;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: middle; }
+        body .page .footer .ft-menu .footer-menu {
+          display: block;
+          margin-left: 380px;
+          margin-top: -22px; }
+          body .page .footer .ft-menu .footer-menu .ft-mn-item {
+            text-transform: uppercase;
+            display: inline-block;
+            font-weight: bolder;
+            font-size: 18px;
+            margin-left: 60px;
+            height: 100%;
+            cursor: pointer; }
       body .page .footer .ft-credits {
         display: block; }
 

@@ -50,6 +50,7 @@ body {
           margin-top: -25px;
           margin-right: 185px;
           float: right;
+          cursor: pointer;
           i {
             font-size: 25px;
             margin-right: 5px;
@@ -701,6 +702,39 @@ body {
         display: block;
         height: 125px;
         border-bottom: solid #c3c3c3 1px;
+        .write-lttr{
+          padding-top: 50px;
+          padding-left: 85px;
+          text-transform: uppercase;
+          cursor: pointer;
+          i {
+            font-size: 25px;
+            margin-right: 5px;
+            color: $blue;
+            display: inline-block;
+            vertical-align: middle;
+          }
+          .mail-title {
+            font-weight: bolder;
+            font-size: 18px;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+        .footer-menu{
+          display: block;
+          margin-left: 380px;
+          margin-top: -22px;
+          .ft-mn-item{
+            text-transform: uppercase;
+            display: inline-block;
+            font-weight: bolder;
+            font-size: 18px;
+            margin-left: 60px;
+            height: 100%;
+            cursor: pointer;
+          }
+        }
       }
       .ft-credits {
         display: block;
