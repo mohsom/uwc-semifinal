@@ -298,10 +298,13 @@ body {
       height: 1750px;
       background-color: #ffffff; }
       body .page .main-content .banners {
-        display: block; }
+        display: block;
+        overflow: hidden; }
         body .page .main-content .banners .bnrs-row {
           display: block;
           margin-bottom: 50px; }
+          body .page .main-content .banners .bnrs-row .top-row {
+            margin-top: -100px; }
           body .page .main-content .banners .bnrs-row .bnrs-row-item {
             display: inline-block;
             border-radius: 3px;
@@ -329,38 +332,41 @@ body {
                 font-style: italic;
                 padding: 5px;
                 background-color: #ffffff; }
-          body .page .main-content .banners .bnrs-row .no-bn .no-bn-title {
-            width: 200px;
-            margin: 50px auto 0 auto;
+          body .page .main-content .banners .bnrs-row .no-bn .no-bn-content {
             display: block;
-            font-size: 25px;
-            text-align: center;
-            color: #181818;
-            font-weight: bolder;
-            text-transform: uppercase; }
-          body .page .main-content .banners .bnrs-row .no-bn .no-bn-text {
-            display: block;
-            text-align: center;
-            color: #181818;
-            margin: 10px auto;
-            font-size: 18px;
-            line-height: 30px;
-            width: 250px; }
-          body .page .main-content .banners .bnrs-row .no-bn img {
-            display: block;
-            margin: 5px auto; }
-          body .page .main-content .banners .bnrs-row .no-bn .no-bn-line {
-            display: block;
-            width: 50px;
-            margin: 10px auto;
-            height: 0;
-            border-bottom: solid 5px; }
-          body .page .main-content .banners .bnrs-row .no-bn #red {
-            border-color: #e7302c; }
-          body .page .main-content .banners .bnrs-row .no-bn #yellow {
-            border-color: #f6d416; }
-          body .page .main-content .banners .bnrs-row .no-bn #blue {
-            border-color: #01b4d5; }
+            margin-top: 100px; }
+            body .page .main-content .banners .bnrs-row .no-bn .no-bn-content .no-bn-title {
+              width: 200px;
+              margin: 20px auto 0 auto;
+              display: block;
+              font-size: 25px;
+              text-align: center;
+              color: #181818;
+              font-weight: bolder;
+              text-transform: uppercase; }
+            body .page .main-content .banners .bnrs-row .no-bn .no-bn-content .no-bn-text {
+              display: block;
+              text-align: center;
+              color: #181818;
+              margin: 10px auto;
+              font-size: 18px;
+              line-height: 30px;
+              width: 250px; }
+            body .page .main-content .banners .bnrs-row .no-bn .no-bn-content img {
+              display: block;
+              margin: 5px auto; }
+            body .page .main-content .banners .bnrs-row .no-bn .no-bn-content .no-bn-line {
+              display: block;
+              width: 50px;
+              margin: 10px auto;
+              height: 0;
+              border-bottom: solid 5px; }
+            body .page .main-content .banners .bnrs-row .no-bn .no-bn-content #red {
+              border-color: #e7302c; }
+            body .page .main-content .banners .bnrs-row .no-bn .no-bn-content #yellow {
+              border-color: #f6d416; }
+            body .page .main-content .banners .bnrs-row .no-bn .no-bn-content #blue {
+              border-color: #01b4d5; }
           body .page .main-content .banners .bnrs-row .no-bn-st {
             border: solid #bcbcbc 2px;
             border-radius: 3px; }
