@@ -593,5 +593,16 @@ body {
               margin-top: -40px;
               margin-left: 180px;
               z-index: 999; }
+    body .page .footer {
+      display: block;
+      width: 100%;
+      height: 190px;
+      border-top: solid #f6d416 5px; }
+      body .page .footer .ft-menu {
+        display: block;
+        height: 125px;
+        border-bottom: solid #c3c3c3 1px; }
+      body .page .footer .ft-credits {
+        display: block; }
 
 /*# sourceMappingURL=style.css.map */
