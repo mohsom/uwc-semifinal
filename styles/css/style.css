@@ -769,11 +769,12 @@ body {
             margin-top: 35px;
             width: 100%; }
             body .page .body .right-block .products .row .col-xs-6 {
-              display: block; }
+              display: block;
+              width: 285px; }
               body .page .body .right-block .products .row .col-xs-6 .thumbnail {
                 display: block;
                 width: 260px;
-                height: 295px; }
+                height: 300px; }
               body .page .body .right-block .products .row .col-xs-6 .tr-desc {
                 width: 100%;
                 font-weight: bold;
