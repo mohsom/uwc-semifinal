@@ -131,15 +131,15 @@ body {
           display: inline-block;
           height: 100%;
           margin-left: 360px;
-          cursor: pointer;
           .menu-item {
             text-transform: uppercase;
             display: inline-block;
-            margin-top: 40px;
+            padding-top: 40px;
             font-weight: bolder;
             font-size: 18px;
             margin-left: 60px;
             height: 100%;
+            cursor: pointer;
             i.fa-sort-desc {
               font-size: 20px;
               vertical-align: top;
