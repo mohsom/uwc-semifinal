@@ -523,9 +523,12 @@ body {
               padding: 10px;
               cursor: pointer; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-button i {
-                display: inline-block; }
+                display: inline-block;
+                font-weight: bold; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-button .sw-bt-add {
-                display: inline-block; }
+                display: inline-block;
+                border-left: solid #ffffff 1px;
+                padding-left: 17px; }
             body .page .main-content .social-networks .sw-items .sw-item #fb {
               background-color: #3d5a99; }
             body .page .main-content .social-networks .sw-items .sw-item #vk {

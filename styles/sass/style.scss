@@ -600,9 +600,12 @@ body {
               cursor: pointer;
               i{
                 display: inline-block;
+                font-weight: bold;
               }
               .sw-bt-add{
                 display: inline-block;
+                border-left: solid #ffffff 1px;
+                padding-left: 17px;
               }
             }
             #fb{
