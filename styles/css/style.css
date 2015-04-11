@@ -715,6 +715,23 @@ body {
           body .page .body .right-block .ctg-banners #bn1 {
             background: url("../../img/ctbn1.png");
             margin-right: 30px; }
+            body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt {
+              display: block;
+              position: absolute;
+              width: 180px;
+              margin-top: 30px;
+              margin-left: 30px; }
+              body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-title {
+                display: block;
+                color: #ffffff;
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: bold; }
+              body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-desc {
+                display: block;
+                margin-top: 20px; }
+                body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-desc span {
+                  font-weight: bold; }
           body .page .body .right-block .ctg-banners #bn2 {
             background: url("../../img/ctbn2.png"); }
       body .page .body .left-block {

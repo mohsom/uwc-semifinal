@@ -811,7 +811,7 @@ body {
               text-align: left;
               border: solid #000000 1px;
               font-weight: bold;
-              .btn-title{
+              .btn-title {
                 margin-left: 20px;
               }
               .caret {
@@ -840,6 +840,27 @@ body {
           #bn1 {
             background: url('../../img/ctbn1.png');
             margin-right: 30px;
+            .ctg-bn-cnt {
+              display: block;
+              position: absolute;
+              width: 180px;
+              margin-top: 30px;
+              margin-left: 30px;
+              .ctg-bn-title {
+                display: block;
+                color: #ffffff;
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: bold;
+              }
+              .ctg-bn-desc {
+                display: block;
+                margin-top: 20px;
+                span{
+                  font-weight: bold;
+                }
+              }
+            }
           }
           #bn2 {
             background: url('../../img/ctbn2.png');
