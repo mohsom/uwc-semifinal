@@ -848,8 +848,10 @@ body {
           .cnfg-main {
             display: block;
             width: 100%;
+            margin-top: 20px;
             .chbox {
               display: block;
+              width: 175px;
               .checkbox {
                 content: '';
                 display: inline-block;
@@ -857,6 +859,7 @@ body {
                 height: 25px;
                 background-color: #c8c8c8;
                 cursor: pointer;
+                vertical-align: middle;
               }
               .ch-active {
                 background-color: $blue;
@@ -867,6 +870,10 @@ body {
               }
               .cb-label {
                 display: inline-block;
+                vertical-align: middle;
+                word-break: normal;
+                margin-left: 25px;
+                width: 125px;
               }
             }
           }

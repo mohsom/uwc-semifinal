@@ -724,16 +724,19 @@ body {
               cursor: pointer; }
         body .page .body .left-block .config .cnfg-main {
           display: block;
-          width: 100%; }
+          width: 100%;
+          margin-top: 20px; }
           body .page .body .left-block .config .cnfg-main .chbox {
-            display: block; }
+            display: block;
+            width: 175px; }
             body .page .body .left-block .config .cnfg-main .chbox .checkbox {
               content: '';
               display: inline-block;
               width: 25px;
               height: 25px;
               background-color: #c8c8c8;
-              cursor: pointer; }
+              cursor: pointer;
+              vertical-align: middle; }
             body .page .body .left-block .config .cnfg-main .chbox .ch-active {
               background-color: #01b4d5;
               color: white;
@@ -741,6 +744,10 @@ body {
               text-align: center;
               padding-top: 2px; }
             body .page .body .left-block .config .cnfg-main .chbox .cb-label {
-              display: inline-block; }
+              display: inline-block;
+              vertical-align: middle;
+              word-break: normal;
+              margin-left: 25px;
+              width: 125px; }
 
 /*# sourceMappingURL=style.css.map */
