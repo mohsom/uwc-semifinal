@@ -511,9 +511,11 @@ body {
           width: 100%; }
           body .page .main-content .social-networks .sw-items .sw-item {
             display: inline-block;
-            margin: 50px; }
+            margin: 50px;
+            color: #454545; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-item-title {
-              display: inline-block; }
+              display: inline-block;
+              margin-right: 10px; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-button {
               display: inline-block;
               color: #ffffff;
@@ -528,7 +530,9 @@ body {
               body .page .main-content .social-networks .sw-items .sw-item .sw-button .sw-bt-add {
                 display: inline-block;
                 border-left: solid #ffffff 1px;
-                padding-left: 17px; }
+                padding-left: 10px;
+                font-weight: bold;
+                font-size: 17px; }
             body .page .main-content .social-networks .sw-items .sw-item #fb {
               background-color: #3d5a99; }
             body .page .main-content .social-networks .sw-items .sw-item #vk {
@@ -538,7 +542,8 @@ body {
             body .page .main-content .social-networks .sw-items .sw-item #in {
               background-color: #1a6b8c; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-item-text {
-              display: block; }
+              display: block;
+              margin-top: 10px; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-item-text span {
                 font-weight: bold; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips {

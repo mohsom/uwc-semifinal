@@ -581,16 +581,18 @@ body {
             margin: 20px;
           }
         }
-        .sw-items{
+        .sw-items {
           display: block;
           width: 100%;
-          .sw-item{
+          .sw-item {
             display: inline-block;
             margin: 50px;
-            .sw-item-title{
-                 display: inline-block;
+            color: #454545;
+            .sw-item-title {
+              display: inline-block;
+              margin-right: 10px;
             }
-            .sw-button{
+            .sw-button {
               display: inline-block;
               color: #ffffff;
               font-size: 20px;
@@ -598,42 +600,45 @@ body {
               border-radius: 3px;
               padding: 10px;
               cursor: pointer;
-              i{
+              i {
                 display: inline-block;
                 font-weight: bold;
               }
-              .sw-bt-add{
+              .sw-bt-add {
                 display: inline-block;
                 border-left: solid #ffffff 1px;
-                padding-left: 17px;
+                padding-left: 10px;
+                font-weight: bold;
+                font-size: 17px;
               }
             }
-            #fb{
+            #fb {
               @include btn-color('fb');
             }
-            #vk{
+            #vk {
               @include btn-color('vk');
             }
-            #tw{
+            #tw {
               @include btn-color('tw');
             }
-            #in{
+            #in {
               @include btn-color('in');
             }
-            .sw-item-text{
-               display: block;
-               span{
-                 font-weight: bold;
-               }
+            .sw-item-text {
+              display: block;
+              margin-top: 10px;
+              span {
+                font-weight: bold;
+              }
             }
-            .sw-num{
+            .sw-num {
               a.tooltips {
                 position: relative;
                 display: inline;
               }
               a.tooltips span {
                 position: absolute;
-                width:50px;
+                width: 50px;
                 color: #7D7D7D;
                 background: #FFFFFF;
                 border: 2px solid #7D7D7D;
@@ -649,7 +654,8 @@ body {
                 top: 50%;
                 right: 100%;
                 margin-top: -12px;
-                width: 0; height: 0;
+                width: 0;
+                height: 0;
                 border-right: 12px solid #7D7D7D;
                 border-top: 12px solid transparent;
                 border-bottom: 12px solid transparent;
@@ -660,7 +666,8 @@ body {
                 top: 50%;
                 right: 100%;
                 margin-top: -8px;
-                width: 0; height: 0;
+                width: 0;
+                height: 0;
                 border-right: 8px solid #FFFFFF;
                 border-top: 8px solid transparent;
                 border-bottom: 8px solid transparent;
