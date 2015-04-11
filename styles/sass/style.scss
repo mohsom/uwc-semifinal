@@ -879,6 +879,23 @@ body {
           }
           #bn2 {
             background: url('../../img/ctbn2.png');
+            .ctg-bn-cnt{
+              position: absolute;
+              font-size: 20px;
+              margin-top: 240px;
+              margin-left: 30px;
+              width: 235px;
+                 span{
+                   background-color: white;
+                   font-style: italic;
+                   span{
+                     font-style: normal;
+                     color: $red;
+                     font-weight: bold;
+                     text-transform: uppercase;
+                   }
+                 }
+            }
           }
         }
       }
