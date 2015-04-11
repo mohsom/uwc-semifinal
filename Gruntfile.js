@@ -86,7 +86,7 @@ module.exports = function (grunt) {
                 files: ['styles/css/*.css']
             },
             html: {
-                files: ['index.html','catalogue']
+                files: ['index.html','catalogue.htmlg']
                 //tasks: ['validation']
             },
             js: {
