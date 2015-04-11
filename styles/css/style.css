@@ -506,5 +506,67 @@ body {
           body .page .main-content .social-networks .sw-title img {
             vertical-align: middle;
             margin: 20px; }
+        body .page .main-content .social-networks .sw-items {
+          display: block;
+          width: 100%; }
+          body .page .main-content .social-networks .sw-items .sw-item {
+            display: inline-block;
+            margin: 50px; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-item-title {
+              display: inline-block; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-button {
+              display: inline-block; }
+              body .page .main-content .social-networks .sw-items .sw-item .sw-button i {
+                display: inline-block; }
+              body .page .main-content .social-networks .sw-items .sw-item .sw-button .sw-bt-add {
+                display: inline-block; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-item-text {
+              display: block; }
+              body .page .main-content .social-networks .sw-items .sw-item .sw-item-text span {
+                font-weight: bold; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips {
+              position: relative;
+              display: inline; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span {
+              position: absolute;
+              width: 50px;
+              color: #7D7D7D;
+              background: #FFFFFF;
+              border: 2px solid #7D7D7D;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              visibility: hidden;
+              border-radius: 3px; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span:before {
+              content: '';
+              position: absolute;
+              top: 50%;
+              right: 100%;
+              margin-top: -12px;
+              width: 0;
+              height: 0;
+              border-right: 12px solid #7D7D7D;
+              border-top: 12px solid transparent;
+              border-bottom: 12px solid transparent; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span:after {
+              content: '';
+              position: absolute;
+              top: 50%;
+              right: 100%;
+              margin-top: -8px;
+              width: 0;
+              height: 0;
+              border-right: 8px solid #FFFFFF;
+              border-top: 8px solid transparent;
+              border-bottom: 8px solid transparent; }
+            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span {
+              visibility: visible;
+              opacity: 1;
+              left: 100%;
+              top: 50%;
+              margin-top: -14.5px;
+              margin-left: 30px;
+              z-index: 999; }
 
 /*# sourceMappingURL=style.css.map */
