@@ -13,6 +13,19 @@ module.exports = function (grunt) {
                 }
             }
         },
+        copy: {
+            main: {
+                files: [
+                    {
+                        expand: true,
+                        src: [
+                            'bower_components/**'
+                        ],
+                        dest: 'build/'
+                    }
+                ]
+            }
+        },
         cssmin: {
             options: {
                 shorthandCompacting: false,
@@ -20,11 +33,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/css/style.css': ['styles/css/style.css'],
-                    'build/bower_components/bootstrap/dist/css/bootstrap.min.css': ['bower_components/bootstrap/dist/css/bootstrap.css'],
-                    'build/bower_components/bootstrap/dist/css/bootstrap-theme.min.css': ['bower_components/bootstrap/dist/css/bootstrap-theme.css'],
-                    'build/bower_components/fontawesome/css/font-awesome.css': ['bower_components/fontawesome/css/font-awesome.css'],
-                    'build/bower_components/normalize.css/normalize.css': ['styles/css/style.css']
+                    'build/styles/css/style.css': ['styles/css/style.css']
                 }
             }
         },
@@ -126,7 +135,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-scss-lint');
     grunt.loadNpmTasks('grunt-html-validation');
-    grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin']);
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin','copy']);
     grunt.registerTask('serve', ['sass', 'connect', 'watch']);
     grunt.registerTask('valid', ['validation']);
 };

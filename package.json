@@ -12,6 +12,7 @@
     "grunt-contrib-watch": "latest",
     "grunt-html-validation":"latest",
     "grunt-scss-lint":"latest",
+    "grunt-contrib-copy":"latest",
     "bower":"latest"
   }
 }
