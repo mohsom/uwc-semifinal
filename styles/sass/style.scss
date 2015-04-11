@@ -784,11 +784,27 @@ body {
         display: inline-block;
         width: 855px;
         float: right;
-        .rbl-top{
-          .rbl-title{
-            span{
-                font-weight: bold;
+        .rbl-top {
+          display: block;
+          .rbl-title {
+            span {
+              font-weight: bold;
             }
+          }
+        }
+        .sort {
+          display: block;
+          float: right;
+          margin-right: 10px;
+          margin-top: -10px;
+          .srt-lbl {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 30px;
+          }
+          .btn-group {
+            display: inline-block;
+            vertical-align: middle;
           }
         }
         .ctg-banners {

@@ -11,6 +11,7 @@
     "normalize.css": "latest",
     "reset-scss":"latest",
     "fontawesome":"latest",
-    "bootstrap":"latest"
+    "bootstrap":"latest",
+    "jquery":"latest"
   }
 }

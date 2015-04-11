@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/css/style.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="page">
@@ -141,6 +141,17 @@
                 <span class="rbl-title">
                     Всього <span>1025</span> товарів
                 </span>
+                <div class="sort">
+                    <span class="srt-lbl">Сортувати за: </span>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            Популярністю <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Ціною</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="ctg-banners">
                 <div class="ctg-banner" id="bn1">
