@@ -310,9 +310,9 @@ body {
             body .page .main-content .banners .bnrs-row .bnrs-row-item .description {
               display: block;
               text-align: left;
-              margin-top: 290px;
-              margin-left: 20px;
-              line-height: 25px; }
+              margin: 290px auto;
+              line-height: 25px;
+              width: 270px; }
               body .page .main-content .banners .bnrs-row .bnrs-row-item .description .title {
                 color: #e7302c;
                 text-transform: uppercase;

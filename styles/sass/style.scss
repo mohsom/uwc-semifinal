@@ -324,7 +324,7 @@ body {
           display: block;
           margin-bottom: 50px;
           .top-row{
-            
+
           }
           .no-top{
 
@@ -343,9 +343,9 @@ body {
             .description {
               display: block;
               text-align: left;
-              margin-top: 290px;
-              margin-left: 20px;
+              margin: 290px auto;
               line-height: 25px;
+              width: 270px;
               .title {
                 color: $red;
                 text-transform: uppercase;
