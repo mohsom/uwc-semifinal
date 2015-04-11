@@ -599,6 +599,18 @@ body {
                 display: inline-block;
               }
             }
+            #fb{
+              @include btn-color('fb');
+            }
+            #vk{
+              @include btn-color('vk');
+            }
+            #tw{
+              @include btn-color('tw');
+            }
+            #in{
+              @include btn-color('in');
+            }
             .sw-item-text{
                display: block;
                span{

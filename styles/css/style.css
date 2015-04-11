@@ -520,6 +520,14 @@ body {
                 display: inline-block; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-button .sw-bt-add {
                 display: inline-block; }
+            body .page .main-content .social-networks .sw-items .sw-item #fb {
+              background-color: #3d5a99; }
+            body .page .main-content .social-networks .sw-items .sw-item #vk {
+              background-color: #3d5a99; }
+            body .page .main-content .social-networks .sw-items .sw-item #tw {
+              background-color: #2bb1ca; }
+            body .page .main-content .social-networks .sw-items .sw-item #in {
+              background-color: #1a6b8c; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-item-text {
               display: block; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-item-text span {
