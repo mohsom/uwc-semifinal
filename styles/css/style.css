@@ -400,5 +400,10 @@ body {
             background: url("../../img/banner7.png"); }
           body .page .main-content .banners .bnrs-row #banner4 {
             background: url("../../img/bannner9.png"); }
+      body .page .main-content .news .news-title {
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
