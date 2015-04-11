@@ -329,6 +329,9 @@ body {
           margin-bottom: 50px;
           .top-row {
             margin-top: -100px;
+            .no-bn-content {
+              margin-top: 80px;
+            }
           }
           .no-top {
 
@@ -417,7 +420,6 @@ body {
             border-radius: 3px;
             .no-bn-content {
               display: block;
-              margin-top: 80px;
               .no-bn-st-title {
                 margin: 0 auto;
                 display: block;
@@ -560,6 +562,11 @@ body {
             font-weight: bold;
           }
         }
+      }
+      .social-networks {
+        display: block;
+        width: 100%;
+        height: 285px;
       }
     }
   }
