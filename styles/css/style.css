@@ -662,7 +662,7 @@ body {
       display: block;
       width: 100%;
       margin-bottom: 40px;
-      height: 2520px; }
+      height: 2430px; }
       body .page .body .breadcrumb {
         background-color: #ffffff;
         margin-top: 45px;
@@ -778,7 +778,7 @@ body {
               body .page .body .right-block .products .row .col-xs-6 .tr-desc {
                 width: 100%;
                 font-weight: bold;
-                margin-top: 20px; }
+                margin-top: 30px; }
                 body .page .body .right-block .products .row .col-xs-6 .tr-desc .tr-text {
                   display: block;
                   width: 100%;
@@ -787,7 +787,31 @@ body {
                   display: block;
                   color: #e7302c;
                   width: 100%;
-                  font-size: 25px; }
+                  font-size: 25px;
+                  margin-top: 35px; }
+          body .page .body .right-block .products .download-more {
+            display: block;
+            width: 100%;
+            text-align: center; }
+            body .page .body .right-block .products .download-more .circle {
+              display: block;
+              margin: 50px auto 0 auto;
+              border: solid #e7302c 1px;
+              width: 50px;
+              height: 50px;
+              border-radius: 50px;
+              color: #e7302c;
+              text-align: center;
+              font-size: 30px;
+              padding-top: 10px;
+              cursor: pointer; }
+            body .page .body .right-block .products .download-more span {
+              display: block;
+              color: #7e7e7e;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-size: 17px;
+              margin-top: 20px; }
       body .page .body .left-block {
         display: inline-block;
         width: 265px;

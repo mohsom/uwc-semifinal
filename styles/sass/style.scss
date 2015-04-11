@@ -773,7 +773,7 @@ body {
       display: block;
       width: 100%;
       margin-bottom: 40px;
-      height: 2520px;
+      height: 2430px;
       .breadcrumb {
         background-color: #ffffff;
         margin-top: 45px;
@@ -912,22 +912,49 @@ body {
                 width: 260px;
                 height: 300px;
               }
-              .tr-desc{
+              .tr-desc {
                 width: 100%;
                 font-weight: bold;
-                margin-top: 20px;
-                .tr-text{
+                margin-top: 30px;
+                .tr-text {
                   display: block;
                   width: 100%;
                   margin-bottom: 10px;
                 }
-                .tr-price{
+                .tr-price {
                   display: block;
                   color: $red;
                   width: 100%;
                   font-size: 25px;
+                  margin-top: 35px;
                 }
               }
+            }
+          }
+          .download-more {
+            display: block;
+            width: 100%;
+            text-align: center;
+            .circle {
+              display: block;
+              margin: 50px auto 0 auto;
+              border: solid $red 1px;
+              width: 50px;
+              height: 50px;
+              border-radius: 50px;
+              color: $red;
+              text-align: center;
+              font-size: 30px;
+              padding-top: 10px;
+              cursor: pointer;
+            }
+            span {
+              display: block;
+              color: #7e7e7e;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-size: 17px;
+              margin-top: 20px;
             }
           }
         }
