@@ -8,7 +8,8 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: {
-                    'build/index.html': 'index.html'
+                    'build/index.html': 'index.html',
+                    'build/catalogue.html': 'catalogue.html'
                 }
             }
         },
@@ -19,7 +20,11 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.css': ['styles/css/style.css']
+                    'build/styles/css/style.css': ['styles/css/style.css'],
+                    'build/bower_components/bootstrap/dist/css/bootstrap.min.css': ['bower_components/bootstrap/dist/css/bootstrap.css'],
+                    'build/bower_components/bootstrap/dist/css/bootstrap-theme.min.css': ['bower_components/bootstrap/dist/css/bootstrap-theme.css'],
+                    'build/bower_components/fontawesome/css/font-awesome.css': ['bower_components/fontawesome/css/font-awesome.css'],
+                    'build/bower_components/normalize.css/normalize.css': ['styles/css/style.css']
                 }
             }
         },
@@ -27,23 +32,10 @@ module.exports = function (grunt) {
             dynamic: {
                 files: [{
                     expand: true,
-                    cwd: 'images/',
+                    cwd: 'img/',
                     src: ['**/*.{png,jpg,gif,svg}'],
-                    dest: 'build/images'
+                    dest: 'build/img'
                 }]
-            }
-        },
-        uglify: {
-            my_target: {
-                files: {
-                    'build/js/script.js': ['build/js/script.js']
-                }
-            }
-        },
-        concat: {
-            js: {
-                src: ['js/script.js'],
-                dest: 'build/js/script.js'
             }
         },
 
@@ -85,7 +77,7 @@ module.exports = function (grunt) {
                 files: ['styles/css/*.css']
             },
             html: {
-                files: ['index.html'],
+                files: ['index.html','catalogue']
                 //tasks: ['validation']
             },
             js: {
@@ -134,6 +126,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-scss-lint');
     grunt.loadNpmTasks('grunt-html-validation');
-    grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin', 'concat:js', 'uglify']);
+    grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin']);
     grunt.registerTask('serve', ['sass', 'connect', 'watch']);
+    grunt.registerTask('valid', ['validation']);
 };

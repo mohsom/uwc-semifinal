@@ -10,7 +10,6 @@
   "devDependencies": {
     "normalize.css": "latest",
     "reset-scss":"latest",
-    "jquery":"latest",
     "fontawesome":"latest",
     "bootstrap":"latest"
   }
