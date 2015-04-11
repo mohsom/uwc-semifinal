@@ -805,6 +805,26 @@ body {
           .btn-group {
             display: inline-block;
             vertical-align: middle;
+            button {
+              width: 210px;
+              height: 40px;
+              text-align: left;
+              border: solid #000000 1px;
+              font-weight: bold;
+              .btn-title{
+                margin-left: 20px;
+              }
+              .caret {
+                margin-left: 40px;
+              }
+            }
+            ul {
+              width: 210px;
+              border: solid #000000 1px;
+              li {
+                width: 100%;
+              }
+            }
           }
         }
         .ctg-banners {

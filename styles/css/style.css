@@ -688,6 +688,21 @@ body {
           body .page .body .right-block .sort .btn-group {
             display: inline-block;
             vertical-align: middle; }
+            body .page .body .right-block .sort .btn-group button {
+              width: 210px;
+              height: 40px;
+              text-align: left;
+              border: solid #000000 1px;
+              font-weight: bold; }
+              body .page .body .right-block .sort .btn-group button .btn-title {
+                margin-left: 20px; }
+              body .page .body .right-block .sort .btn-group button .caret {
+                margin-left: 40px; }
+            body .page .body .right-block .sort .btn-group ul {
+              width: 210px;
+              border: solid #000000 1px; }
+              body .page .body .right-block .sort .btn-group ul li {
+                width: 100%; }
         body .page .body .right-block .ctg-banners {
           display: block;
           width: 100%;
