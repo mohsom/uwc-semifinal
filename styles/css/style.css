@@ -623,35 +623,36 @@ body {
         border-bottom: solid #c3c3c3 1px; }
         body .page .footer .ft-menu .write-lttr {
           padding-top: 50px;
-          padding-left: 85px;
+          padding-left: 90px;
           text-transform: uppercase;
           cursor: pointer; }
           body .page .footer .ft-menu .write-lttr i {
-            font-size: 25px;
-            margin-right: 5px;
+            font-size: 28px;
+            margin-right: 15px;
             color: #01b4d5;
             display: inline-block;
             vertical-align: middle; }
           body .page .footer .ft-menu .write-lttr .mail-title {
             font-weight: 900;
-            font-size: 18px;
+            font-size: 17px;
             display: inline-block;
             vertical-align: middle; }
         body .page .footer .ft-menu .footer-menu {
           display: block;
-          margin-left: 380px;
-          margin-top: -22px; }
+          margin-left: 375px;
+          margin-top: -25px; }
           body .page .footer .ft-menu .footer-menu .ft-mn-item {
             text-transform: uppercase;
             display: inline-block;
             font-weight: 900;
             font-size: 18px;
-            margin-left: 60px;
+            margin-right: 40px;
             height: 100%;
+            width: 120px;
             cursor: pointer; }
       body .page .footer .ft-snw {
         display: block;
-        margin-left: 1025px;
+        margin-left: 1070px;
         margin-top: -30px; }
         body .page .footer .ft-snw .snw-item {
           display: inline-block;
@@ -661,7 +662,7 @@ body {
           background-color: #269cb2;
           text-align: center;
           padding-top: 10px;
-          margin-right: 15px;
+          margin-right: 10px;
           cursor: pointer; }
           body .page .footer .ft-snw .snw-item i {
             font-size: 25px;
