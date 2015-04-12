@@ -510,15 +510,16 @@ body {
         width: 100%;
         height: 250px;
         background: url('../../img/banner-bg.png');
+        margin-top: 35px;
         .sbs-title {
           display: block;
           color: #ffffff;
           width: 100%;
           text-align: center;
           text-transform: uppercase;
-          font-weight: 900;
+          font-weight: 700;
           padding-top: 30px;
-          font-size: 25px;
+          font-size: 26px;
         }
         .sbs-line {
           display: block;
@@ -537,11 +538,11 @@ body {
         .sbs-form {
           display: block;
           width: 100%;
-          margin-top: 30px;
+          margin-top: 20px;
           text-align: center;
           .form-group {
             display: inline-block;
-            margin-left: 40px;
+            margin-left: 20px;
             #mail, #name {
               width: 419px;
               height: 55px;
