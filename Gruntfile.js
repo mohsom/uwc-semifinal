@@ -34,7 +34,8 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/css/style.css': ['styles/css/style.css']
+                    'build/styles/css/style.css': ['styles/css/style.css'],
+                    'build/styles/fonts/font.css': ['styles/fonts/font.css']
                 }
             }
         },
