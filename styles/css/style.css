@@ -975,6 +975,12 @@ body {
                   background-color: #f6d416; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-rd {
                   background-color: #e7302c; }
+              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-sh-price {
+                display: block;
+                color: #e7302c;
+                font-size: 25px;
+                font-weight: bold;
+                margin-top: 50px; }
         body .page .main-info-pr-page .product-info .pr-info {
           display: block;
           width: 100%; }
