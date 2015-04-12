@@ -1077,13 +1077,14 @@ body {
           display: block;
           width: 100%;
           .pr-imgs {
-            display: block;
+            display: inline-block;
+            float: left;
             .row {
               .main-img {
                 width: 350px;
                 height: 330px;
               }
-              i{
+              i {
                 display: inline-block;
                 vertical-align: middle;
                 color: $blue;
@@ -1096,10 +1097,32 @@ body {
                 height: 100px;
                 margin: 20px 3px;
                 vertical-align: middle;
-                .thumbnail{
+                .thumbnail {
                   width: 100px;
                   height: 100px;
                   overflow: hidden;
+                }
+              }
+            }
+          }
+          .pr-sh-info {
+            display: inline-block;
+            margin-right: 180px;
+            float: right;
+            .pr-title {
+              font-size: 20px;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+            .pr-sh-desc {
+              display: block;
+              margin-top: 45px;
+              .desc-row {
+                display: block;
+                width: 100%;
+                span {
+                  font-weight: bold;
+                  line-height: 20px;
                 }
               }
             }
