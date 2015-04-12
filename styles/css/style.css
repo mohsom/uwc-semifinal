@@ -1169,5 +1169,8 @@ body {
               body .page .main-info-pr-page .contacts .cnt-inf .cnt-item span a {
                 color: #01b4d5;
                 text-decoration: underline; }
+          body .page .main-info-pr-page .contacts .cnt-inf .cnt-map {
+            display: block;
+            margin-top: 45px; }
 
 /*# sourceMappingURL=style.css.map */
