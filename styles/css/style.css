@@ -1117,7 +1117,9 @@ body {
                   padding-left: 5px; }
         body .page .main-info-pr-page .product-info .pr-info {
           display: block;
-          width: 100%; }
+          float: none;
+          width: 100%;
+          text-align: left; }
       body .page .main-info-pr-page .contacts {
         display: inline-block;
         width: 300px;

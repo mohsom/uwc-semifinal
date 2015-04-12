@@ -1329,7 +1329,9 @@ body {
         }
         .pr-info {
           display: block;
+          float: none;
           width: 100%;
+          text-align: left;
         }
       }
       .contacts {
