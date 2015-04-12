@@ -812,8 +812,12 @@ body {
         display: inline-block;
         width: 855px;
         float: right;
+        margin-top: 5px;
+        margin-right: 65px;
         .rbl-top {
           display: block;
+          margin-top: -7px;
+          font-size: 18px;
           .rbl-title {
             font-weight: 500;
             span {
@@ -824,13 +828,14 @@ body {
         .sort {
           display: block;
           float: right;
-          margin-right: 10px;
-          margin-top: -10px;
+          margin-right: 6px;
+          margin-top: -15px;
           .srt-lbl {
             display: inline-block;
             vertical-align: middle;
             margin-right: 30px;
-            font-weight: 700;
+            font-weight: 600;
+            font-size: 16px;
           }
           .btn-group {
             display: inline-block;
@@ -840,12 +845,15 @@ body {
               height: 40px;
               text-align: left;
               border: solid #000000 1px;
-              font-weight: 700;
+              font-size: 16px;
+              font-weight: 600;
               .btn-title {
-                margin-left: 20px;
+                margin-left: 15px;
               }
               .caret {
-                margin-left: 40px;
+                margin-left: 45px;
+                margin-top: -1px;
+                transform: scale(1.5);
               }
             }
             ul {
@@ -873,7 +881,7 @@ body {
             .ctg-bn-cnt {
               display: block;
               position: absolute;
-              width: 180px;
+              width: 200px;
               margin-top: 30px;
               margin-left: 30px;
               .ctg-bn-title {
@@ -885,23 +893,24 @@ body {
               }
               .ctg-bn-desc {
                 display: block;
-                margin-top: 20px;
+                margin-top: 25px;
                 span {
                   font-weight: 900;
                 }
               }
               .bn-price {
                 display: block;
-                width: 160px;
+                width: 155px;
                 height: 50px;
                 background-color: $red;
                 border-radius: 30px;
                 padding-top: 10px;
                 color: #ffffff;
-                font-size: 30px;
+                font-size: 25px;
                 font-weight: 900;
                 text-align: center;
-                margin-top: 100px;
+                margin-top: 105px;
+                margin-left: -5px;
               }
             }
           }

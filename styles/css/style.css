@@ -696,9 +696,13 @@ body {
       body .page .body .right-block {
         display: inline-block;
         width: 855px;
-        float: right; }
+        float: right;
+        margin-top: 5px;
+        margin-right: 65px; }
         body .page .body .right-block .rbl-top {
-          display: block; }
+          display: block;
+          margin-top: -7px;
+          font-size: 18px; }
           body .page .body .right-block .rbl-top .rbl-title {
             font-weight: 500; }
             body .page .body .right-block .rbl-top .rbl-title span {
@@ -706,13 +710,14 @@ body {
         body .page .body .right-block .sort {
           display: block;
           float: right;
-          margin-right: 10px;
-          margin-top: -10px; }
+          margin-right: 6px;
+          margin-top: -15px; }
           body .page .body .right-block .sort .srt-lbl {
             display: inline-block;
             vertical-align: middle;
             margin-right: 30px;
-            font-weight: 700; }
+            font-weight: 600;
+            font-size: 16px; }
           body .page .body .right-block .sort .btn-group {
             display: inline-block;
             vertical-align: middle; }
@@ -721,11 +726,14 @@ body {
               height: 40px;
               text-align: left;
               border: solid #000000 1px;
-              font-weight: 700; }
+              font-size: 16px;
+              font-weight: 600; }
               body .page .body .right-block .sort .btn-group button .btn-title {
-                margin-left: 20px; }
+                margin-left: 15px; }
               body .page .body .right-block .sort .btn-group button .caret {
-                margin-left: 40px; }
+                margin-left: 45px;
+                margin-top: -1px;
+                transform: scale(1.5); }
             body .page .body .right-block .sort .btn-group ul {
               width: 210px;
               border: solid #000000 1px; }
@@ -746,7 +754,7 @@ body {
             body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt {
               display: block;
               position: absolute;
-              width: 180px;
+              width: 200px;
               margin-top: 30px;
               margin-left: 30px; }
               body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-title {
@@ -757,21 +765,22 @@ body {
                 font-weight: 900; }
               body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-desc {
                 display: block;
-                margin-top: 20px; }
+                margin-top: 25px; }
                 body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-desc span {
                   font-weight: 900; }
               body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .bn-price {
                 display: block;
-                width: 160px;
+                width: 155px;
                 height: 50px;
                 background-color: #e7302c;
                 border-radius: 30px;
                 padding-top: 10px;
                 color: #ffffff;
-                font-size: 30px;
+                font-size: 25px;
                 font-weight: 900;
                 text-align: center;
-                margin-top: 100px; }
+                margin-top: 105px;
+                margin-left: -5px; }
           body .page .body .right-block .ctg-banners #bn2 {
             background: url("../../img/ctbn2.png"); }
             body .page .body .right-block .ctg-banners #bn2 .ctg-bn-cnt {
