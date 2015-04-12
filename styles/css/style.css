@@ -905,7 +905,35 @@ body {
       body .page .main-info-pr-page .product-info {
         display: inline-block;
         width: 840px;
-        float: left; }
+        float: left;
+        margin-left: 100px; }
+        body .page .main-info-pr-page .product-info .short-info {
+          display: block;
+          width: 100%; }
+          body .page .main-info-pr-page .product-info .short-info .pr-imgs {
+            display: block; }
+            body .page .main-info-pr-page .product-info .short-info .pr-imgs .row .main-img {
+              width: 350px;
+              height: 330px; }
+            body .page .main-info-pr-page .product-info .short-info .pr-imgs .row i {
+              display: inline-block;
+              vertical-align: middle;
+              color: #01b4d5;
+              cursor: pointer;
+              font-size: 40px; }
+            body .page .main-info-pr-page .product-info .short-info .pr-imgs .row .sm-img {
+              display: inline-block;
+              width: 100px;
+              height: 100px;
+              margin: 20px 3px;
+              vertical-align: middle; }
+              body .page .main-info-pr-page .product-info .short-info .pr-imgs .row .sm-img .thumbnail {
+                width: 100px;
+                height: 100px;
+                overflow: hidden; }
+        body .page .main-info-pr-page .product-info .pr-info {
+          display: block;
+          width: 100%; }
       body .page .main-info-pr-page .contacts {
         display: inline-block;
         width: 300px;
