@@ -681,7 +681,7 @@ body {
       display: block;
       width: 100%;
       margin-bottom: 40px;
-      height: 2430px; }
+      height: 2445px; }
       body .page .body .breadcrumb {
         cursor: pointer;
         background-color: #ffffff;
@@ -803,7 +803,8 @@ body {
           display: block;
           width: 100%; }
           body .page .body .right-block .products .row {
-            margin-top: 35px;
+            display: block;
+            margin-top: 40px;
             width: 100%; }
             body .page .body .right-block .products .row .col-xs-6 {
               display: block;
@@ -814,41 +815,44 @@ body {
                 height: 300px; }
               body .page .body .right-block .products .row .col-xs-6 .tr-desc {
                 width: 100%;
-                font-weight: 900;
-                margin-top: 30px; }
+                font-weight: 700;
+                margin-top: 30px;
+                font-size: 18px; }
                 body .page .body .right-block .products .row .col-xs-6 .tr-desc .tr-text {
                   display: block;
                   width: 100%;
                   margin-bottom: 10px; }
                 body .page .body .right-block .products .row .col-xs-6 .tr-desc .tr-price {
                   display: block;
+                  font-weight: 900;
                   color: #e7302c;
                   width: 100%;
                   font-size: 25px;
-                  margin-top: 35px; }
+                  margin-top: 25px; }
           body .page .body .right-block .products .download-more {
             display: block;
             width: 100%;
             text-align: center; }
             body .page .body .right-block .products .download-more .circle {
               display: block;
-              margin: 50px auto 0 auto;
-              border: solid #e7302c 2px;
+              margin: 65px auto 0 auto;
+              border: solid #e7302c 1px;
               width: 50px;
               height: 50px;
               border-radius: 50px;
               color: #e7302c;
               text-align: center;
               font-size: 30px;
-              padding-top: 6px;
+              padding-top: 7px;
               cursor: pointer; }
             body .page .body .right-block .products .download-more span {
               display: block;
               color: #7e7e7e;
               text-transform: uppercase;
-              font-weight: 900;
-              font-size: 17px;
-              margin-top: 20px; }
+              font-weight: 600;
+              font-size: 15px;
+              margin-top: 15px;
+              margin-left: 5px; }
       body .page .body .left-block {
         display: inline-block;
         width: 265px;
