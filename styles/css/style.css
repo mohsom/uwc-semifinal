@@ -506,7 +506,7 @@ body {
           display: block;
           text-align: center;
           width: 100%;
-          padding-top: 30px; }
+          padding-top: 25px; }
           body .page .main-content .social-networks .sw-title span {
             font-size: 25px;
             color: #000000;
@@ -521,8 +521,9 @@ body {
           width: 100%; }
           body .page .main-content .social-networks .sw-items .sw-item {
             display: inline-block;
-            margin: 50px;
-            color: #454545; }
+            margin: 45px 0 40px 50px;
+            color: #454545;
+            width: 260px; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-item-title {
               display: inline-block;
               margin-right: 10px; }
