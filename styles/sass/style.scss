@@ -108,7 +108,7 @@ body {
               height: 100%;
               background-color: #ffffff;
               padding-top: 22px;
-              span{
+              span {
                 display: block;
                 margin-left: -10px;
               }
@@ -171,69 +171,73 @@ body {
                 .catalog-drop {
                   margin-top: 50px;
                   width: 100%;
-                  .catal-row {
-                    display: inline-block;
+                  .catal-rows {
                     margin-left: 60px;
-                    .crow-item {
-                      display: block;
-                      margin-bottom: 30px;
-                      cursor: pointer;
+                    .catal-row {
+                      display: inline-block;
+                      margin-right: 30px;
                       width: 240px;
-                      i {
-                        display: inline-block;
-                        vertical-align: middle;
-                        width: 45px;
-                        height: 45px;
-                        border-radius: 50px;
-                        text-align: center;
-                        img {
+                      .crow-item {
+                        display: block;
+                        margin-bottom: 30px;
+                        cursor: pointer;
+                        width: 100%;
+                        i {
                           display: inline-block;
-                          margin-top: 7px;
+                          vertical-align: middle;
+                          width: 45px;
+                          height: 45px;
+                          border-radius: 50px;
+                          text-align: center;
+                          img {
+                            display: inline-block;
+                            margin-top: 7px;
+                          }
                         }
-                      }
-                      #cr1 {
-                        background-color: #1c9bb2;
-                      }
-                      #cr2 {
-                        background-color: #d4476f;
-                      }
-                      #cr3 {
-                        background-color: #e7302c;
-                      }
-                      #cr4 {
-                        background-color: #f6d416;
-                      }
-                      #cr5 {
-                        background-color: #01b4d5;
-                      }
-                      #cr6 {
-                        background-color: #d4476f;
-                      }
-                      #cr7 {
-                        background-color: #e7302c;
-                      }
-                      #cr8 {
-                        background-color: #4ca52d;
-                      }
-                      #cr9 {
-                        background-color: #1c9bb2;
-                      }
-                      #cr10 {
-                        background-color: #4ca52d;
-                      }
-                      #cr11 {
-                        background-color: #1c9bb2;
-                      }
-                      #cr12 {
-                        background-color: #f6d416;
-                      }
-                      span {
-                        display: inline-block;
-                        font-weight: 900;
-                        vertical-align: middle;
-                        text-transform: none;
-                        margin-left: 10px;
-                        font-size: 16px;
+                        #cr1 {
+                          background-color: #1c9bb2;
+                        }
+                        #cr2 {
+                          background-color: #d4476f;
+                        }
+                        #cr3 {
+                          background-color: #e7302c;
+                        }
+                        #cr4 {
+                          background-color: #f6d416;
+                        }
+                        #cr5 {
+                          background-color: #01b4d5;
+                        }
+                        #cr6 {
+                          background-color: #d4476f;
+                        }
+                        #cr7 {
+                          background-color: #e7302c;
+                        }
+                        #cr8 {
+                          background-color: #4ca52d;
+                        }
+                        #cr9 {
+                          background-color: #1c9bb2;
+                        }
+                        #cr10 {
+                          background-color: #4ca52d;
+                        }
+                        #cr11 {
+                          background-color: #1c9bb2;
+                        }
+                        #cr12 {
+                          background-color: #f6d416;
+                        }
+                        span {
+                          display: inline-block;
+                          font-weight: 900;
+                          vertical-align: middle;
+                          text-transform: none;
+                          margin-left: 20px;
+                          font-size: 16px;
+                        }
                       }
                     }
                   }
@@ -420,7 +424,7 @@ body {
           .no-bn-st {
             border: solid #bcbcbc 2px;
             border-radius: 3px;
-            #bnr3{
+            #bnr3 {
               margin-top: 30px;
             }
             .no-bn-content {
@@ -1411,7 +1415,7 @@ body {
               }
             }
           }
-          .cnt-map{
+          .cnt-map {
             display: block;
             margin-top: 45px;
           }

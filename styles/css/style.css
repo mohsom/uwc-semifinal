@@ -185,55 +185,58 @@ body {
             body .page .header .menu .menu-items #with-dr ul li .catalog-drop {
               margin-top: 50px;
               width: 100%; }
-              body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row {
-                display: inline-block;
+              body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows {
                 margin-left: 60px; }
-                body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item {
-                  display: block;
-                  margin-bottom: 30px;
-                  cursor: pointer;
+                body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row {
+                  display: inline-block;
+                  margin-right: 30px;
                   width: 240px; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item i {
-                    display: inline-block;
-                    vertical-align: middle;
-                    width: 45px;
-                    height: 45px;
-                    border-radius: 50px;
-                    text-align: center; }
-                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item i img {
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item {
+                    display: block;
+                    margin-bottom: 30px;
+                    cursor: pointer;
+                    width: 100%; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item i {
                       display: inline-block;
-                      margin-top: 7px; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr1 {
-                    background-color: #1c9bb2; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr2 {
-                    background-color: #d4476f; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr3 {
-                    background-color: #e7302c; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr4 {
-                    background-color: #f6d416; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr5 {
-                    background-color: #01b4d5; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr6 {
-                    background-color: #d4476f; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr7 {
-                    background-color: #e7302c; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr8 {
-                    background-color: #4ca52d; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr9 {
-                    background-color: #1c9bb2; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr10 {
-                    background-color: #4ca52d; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr11 {
-                    background-color: #1c9bb2; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item #cr12 {
-                    background-color: #f6d416; }
-                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-row .crow-item span {
-                    display: inline-block;
-                    font-weight: 900;
-                    vertical-align: middle;
-                    text-transform: none;
-                    margin-left: 10px;
-                    font-size: 16px; }
+                      vertical-align: middle;
+                      width: 45px;
+                      height: 45px;
+                      border-radius: 50px;
+                      text-align: center; }
+                      body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item i img {
+                        display: inline-block;
+                        margin-top: 7px; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr1 {
+                      background-color: #1c9bb2; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr2 {
+                      background-color: #d4476f; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr3 {
+                      background-color: #e7302c; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr4 {
+                      background-color: #f6d416; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr5 {
+                      background-color: #01b4d5; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr6 {
+                      background-color: #d4476f; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr7 {
+                      background-color: #e7302c; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr8 {
+                      background-color: #4ca52d; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr9 {
+                      background-color: #1c9bb2; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr10 {
+                      background-color: #4ca52d; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr11 {
+                      background-color: #1c9bb2; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item #cr12 {
+                      background-color: #f6d416; }
+                    body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item span {
+                      display: inline-block;
+                      font-weight: 900;
+                      vertical-align: middle;
+                      text-transform: none;
+                      margin-left: 20px;
+                      font-size: 16px; }
           body .page .header .menu .menu-items #with-dr:hover ul {
             visibility: visible; }
           body .page .header .menu .menu-items #search {
