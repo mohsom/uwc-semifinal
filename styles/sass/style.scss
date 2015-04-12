@@ -782,6 +782,9 @@ body {
         margin-bottom: 35px;
         color: #919191;
         font-weight: bold;
+        li{
+          cursor: pointer;
+        }
       }
       .right-block {
         display: inline-block;
@@ -1060,13 +1063,15 @@ body {
       width: 100%;
       height: 905px;
       .breadcrumb {
-        cursor: pointer;
         background-color: #ffffff;
         margin-top: 45px;
         margin-left: 70px;
         margin-bottom: 35px;
         color: #919191;
         font-weight: bold;
+        li{
+          cursor: pointer;
+        }
       }
       .product-info {
         display: inline-block;
