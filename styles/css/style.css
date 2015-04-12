@@ -664,6 +664,7 @@ body {
       margin-bottom: 40px;
       height: 2430px; }
       body .page .body .breadcrumb {
+        cursor: pointer;
         background-color: #ffffff;
         margin-top: 45px;
         margin-left: 70px;
@@ -889,5 +890,13 @@ body {
               word-break: normal;
               margin-left: 25px;
               width: 125px; }
+    body .page .main-info-pr-page .breadcrumb {
+      cursor: pointer;
+      background-color: #ffffff;
+      margin-top: 45px;
+      margin-left: 70px;
+      margin-bottom: 35px;
+      color: #919191;
+      font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
