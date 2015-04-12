@@ -1189,6 +1189,9 @@ body {
                   .vk-tooltip span {
                     margin-left: 95px;
                   }
+                  .tw-tooltip span {
+                    margin-left: 105px;
+                  }
                   a.tooltips {
                     position: relative;
                     display: inline;
@@ -1292,6 +1295,33 @@ body {
                   vertical-align: middle;
                   font-weight: bold;
                   padding-left: 3px;
+                }
+              }
+              .tw-button {
+                margin-top: 25px;
+                display: inline-block;
+                background-color: #2bb1ca;
+                border-radius: 3px;
+                width: 85px;
+                height: 35px;
+                cursor: pointer;
+                color: #ffffff;
+                i {
+                  margin-top: 5px;
+                  font-size: 25px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  border-right: solid #ffffff 1px;
+                  padding-left: 5px;
+                  padding-right: 5px;
+                }
+                .tw-text {
+                  font-size: 12px;
+                  margin-top: 3px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  font-weight: bold;
+                  padding-left: 5px;
                 }
               }
             }
