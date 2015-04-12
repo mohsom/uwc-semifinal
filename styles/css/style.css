@@ -613,8 +613,9 @@ body {
               margin-left: 180px;
               z-index: 999; }
     body .page .footer {
-      display: block;
+      display: inline-block;
       width: 100%;
+      bottom: 0;
       height: 190px;
       border-top: solid #f6d416 5px; }
       body .page .footer .ft-menu {
@@ -680,8 +681,7 @@ body {
     body .page .body {
       display: block;
       width: 100%;
-      margin-bottom: 40px;
-      height: 2445px; }
+      margin-bottom: 40px; }
       body .page .body .breadcrumb {
         cursor: pointer;
         background-color: #ffffff;
@@ -936,7 +936,7 @@ body {
     body .page .main-info-pr-page {
       display: block;
       width: 100%;
-      height: 870px; }
+      min-height: 870px; }
       body .page .main-info-pr-page .breadcrumb {
         cursor: pointer;
         background-color: #ffffff;
