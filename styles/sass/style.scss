@@ -1330,25 +1330,25 @@ body {
           width: 800px;
           text-align: left;
           margin-top: 55px;
-          .pr-inf-title{
+          .pr-inf-title {
             display: block;
             text-transform: uppercase;
             font-size: 20px;
             font-weight: bold;
             margin-bottom: 25px;
           }
-          .pr-inf-subtitle{
+          .pr-inf-subtitle {
             display: block;
             text-transform: uppercase;
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 10px;
           }
-          .pr-inf-body{
+          .pr-inf-body {
             line-height: 20px;
             margin-bottom: 30px;
           }
-          .pr-inf-readmore{
+          .pr-inf-readmore {
             color: $blue;
             font-size: 16px;
             border-bottom: dashed $blue 1px;
@@ -1360,11 +1360,39 @@ body {
         float: right;
         width: 300px;
         margin-right: 45px;
-        .cn-company{
+        .cn-company {
           display: block;
-          img{
+          img {
             display: block;
             margin-top: 15px;
+            margin-bottom: 5px;
+          }
+        }
+        .cnt-inf {
+          display: block;
+          width: 100%;
+          .cnt-item {
+            display: block;
+            width: 100%;
+            margin-top: 30px;
+            i {
+              display: inline-block;
+              vertical-align: middle;
+              color: $blue;
+              font-size: 25px;
+              margin-right: 15px;
+            }
+            .strong{
+              font-weight: bold;
+            }
+            span {
+              display: inline-block;
+              vertical-align: middle;
+              a {
+                color: $blue;
+                text-decoration: underline;
+              }
+            }
           }
         }
       }
