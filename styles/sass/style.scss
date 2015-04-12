@@ -169,7 +169,7 @@ body {
                   width: 100%;
                   .catal-row {
                     display: inline-block;
-                    margin-left: 100px;
+                    margin-left: 80px;
                     .crow-item {
                       display: block;
                       margin-bottom: 30px;
@@ -354,16 +354,15 @@ body {
               .title {
                 color: $red;
                 text-transform: uppercase;
-                font-weight: bolder;
+                font-weight: 900;
                 font-size: 20px;
                 background-color: #ffffff;
-                padding: 5px;
               }
               .text {
                 color: #181818;
                 font-size: 20px;
                 font-style: italic;
-                padding: 5px;
+                font-weight: 600;
                 background-color: #ffffff;
               }
             }
