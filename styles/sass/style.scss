@@ -691,7 +691,8 @@ body {
             }
           }
         }
-      } ///ddddd
+      }
+      ///ddddd
     }
     .footer {
       display: block;
@@ -782,7 +783,7 @@ body {
         margin-bottom: 35px;
         color: #919191;
         font-weight: bold;
-        li{
+        li {
           cursor: pointer;
         }
       }
@@ -1069,13 +1070,12 @@ body {
         margin-bottom: 35px;
         color: #919191;
         font-weight: bold;
-        li{
+        li {
           cursor: pointer;
         }
       }
       .product-info {
         display: inline-block;
-        width: 840px;
         float: left;
         margin-left: 100px;
         .short-info {
@@ -1113,7 +1113,9 @@ body {
           .pr-sh-info {
             display: inline-block;
             margin-right: 180px;
+            width: 400px;
             float: right;
+            margin-left: 65px;
             .pr-title {
               font-size: 20px;
               text-transform: uppercase;
@@ -1149,7 +1151,7 @@ body {
                   border-radius: 25px;
                   margin-right: 7px;
                 }
-                .clr-active{
+                .clr-active {
                   border: solid #000000 2px;
                   transform: scale(1.2);
                 }
@@ -1166,7 +1168,7 @@ body {
                   background-color: $red;
                 }
               }
-              .pr-sh-price{
+              .pr-sh-price {
                 display: block;
                 color: $red;
                 font-size: 25px;
@@ -1174,11 +1176,19 @@ body {
                 margin-top: 50px;
               }
             }
-            .pr-sh-snw{
+            .pr-sh-snw {
               display: block;
               margin-top: 40px;
-              .snw-btn{
+              width: 100%;
+              .snw-btn {
+                display: inline-block;
                 .sw-num {
+                  .fb-tooltip span {
+                    margin-left: 120px;
+                  }
+                  .vk-tooltip span {
+                    margin-left: 95px;
+                  }
                   a.tooltips {
                     position: relative;
                     display: inline;
@@ -1226,20 +1236,19 @@ body {
                     left: 100%;
                     top: 50%;
                     margin-top: -30px;
-                    margin-left: 120px;
                     z-index: 999;
                   }
                 }
               }
-              .fb-button{
-                display: block;
+              .fb-button {
+                display: inline-block;
                 background-color: #3d5a99;
                 border-radius: 3px;
                 width: 100px;
                 height: 35px;
                 cursor: pointer;
                 color: #ffffff;
-                i{
+                i {
                   margin-top: 5px;
                   font-size: 25px;
                   display: inline-block;
@@ -1248,13 +1257,41 @@ body {
                   padding-left: 10px;
                   padding-right: 10px;
                 }
-                span{
+                .fb-text {
                   font-size: 15px;
                   margin-top: 3px;
                   display: inline-block;
                   vertical-align: middle;
                   font-weight: bold;
                   padding-left: 10px;
+                }
+              }
+              .vk-button {
+                display: inline-block;
+                margin-left: 85px;
+                background-color: #57799d;
+                border-radius: 3px;
+                width: 75px;
+                height: 35px;
+                cursor: pointer;
+                color: #ffffff;
+                font-weight: bold;
+                .vk-logo {
+                  margin-top: 5px;
+                  font-size: 25px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  border-right: solid #ffffff 1px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                }
+                .vk-text {
+                  font-size: 20px;
+                  margin-top: 6px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  font-weight: bold;
+                  padding-left: 3px;
                 }
               }
             }

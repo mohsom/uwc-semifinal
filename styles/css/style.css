@@ -907,7 +907,6 @@ body {
           cursor: pointer; }
       body .page .main-info-pr-page .product-info {
         display: inline-block;
-        width: 840px;
         float: left;
         margin-left: 100px; }
         body .page .main-info-pr-page .product-info .short-info {
@@ -938,7 +937,9 @@ body {
           body .page .main-info-pr-page .product-info .short-info .pr-sh-info {
             display: inline-block;
             margin-right: 180px;
-            float: right; }
+            width: 400px;
+            float: right;
+            margin-left: 65px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-title {
               font-size: 20px;
               text-transform: uppercase;
@@ -988,54 +989,60 @@ body {
                 margin-top: 50px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw {
               display: block;
-              margin-top: 40px; }
-              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips {
-                position: relative;
-                display: inline;
-                font-weight: bold; }
-              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span {
-                position: absolute;
-                width: 40px;
-                color: #7D7D7D;
-                background: #FFFFFF;
-                border: 2px solid #7D7D7D;
-                height: 35px;
-                line-height: 35px;
-                text-align: center;
-                visibility: hidden;
-                border-radius: 3px; }
-              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span:before {
-                content: '';
-                position: absolute;
-                top: 50%;
-                right: 100%;
-                margin-top: -12px;
-                width: 0;
-                height: 0;
-                border-right: 12px solid #7D7D7D;
-                border-top: 12px solid transparent;
-                border-bottom: 12px solid transparent; }
-              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span:after {
-                content: '';
-                position: absolute;
-                top: 50%;
-                right: 100%;
-                margin-top: -8px;
-                width: 0;
-                height: 0;
-                border-right: 8px solid #FFFFFF;
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent; }
-              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span {
-                visibility: visible;
-                opacity: 1;
-                left: 100%;
-                top: 50%;
-                margin-top: -30px;
-                margin-left: 120px;
-                z-index: 999; }
+              margin-top: 40px;
+              width: 100%; }
+              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn {
+                display: inline-block; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num .fb-tooltip span {
+                  margin-left: 120px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num .vk-tooltip span {
+                  margin-left: 95px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips {
+                  position: relative;
+                  display: inline;
+                  font-weight: bold; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span {
+                  position: absolute;
+                  width: 40px;
+                  color: #7D7D7D;
+                  background: #FFFFFF;
+                  border: 2px solid #7D7D7D;
+                  height: 35px;
+                  line-height: 35px;
+                  text-align: center;
+                  visibility: hidden;
+                  border-radius: 3px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span:before {
+                  content: '';
+                  position: absolute;
+                  top: 50%;
+                  right: 100%;
+                  margin-top: -12px;
+                  width: 0;
+                  height: 0;
+                  border-right: 12px solid #7D7D7D;
+                  border-top: 12px solid transparent;
+                  border-bottom: 12px solid transparent; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span:after {
+                  content: '';
+                  position: absolute;
+                  top: 50%;
+                  right: 100%;
+                  margin-top: -8px;
+                  width: 0;
+                  height: 0;
+                  border-right: 8px solid #FFFFFF;
+                  border-top: 8px solid transparent;
+                  border-bottom: 8px solid transparent; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span {
+                  visibility: visible;
+                  opacity: 1;
+                  left: 100%;
+                  top: 50%;
+                  margin-top: -30px;
+                  z-index: 999; }
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .fb-button {
-                display: block;
+                display: inline-block;
                 background-color: #3d5a99;
                 border-radius: 3px;
                 width: 100px;
@@ -1050,13 +1057,38 @@ body {
                   border-right: solid #ffffff 1px;
                   padding-left: 10px;
                   padding-right: 10px; }
-                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .fb-button span {
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .fb-button .fb-text {
                   font-size: 15px;
                   margin-top: 3px;
                   display: inline-block;
                   vertical-align: middle;
                   font-weight: bold;
                   padding-left: 10px; }
+              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .vk-button {
+                display: inline-block;
+                margin-left: 85px;
+                background-color: #57799d;
+                border-radius: 3px;
+                width: 75px;
+                height: 35px;
+                cursor: pointer;
+                color: #ffffff;
+                font-weight: bold; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .vk-button .vk-logo {
+                  margin-top: 5px;
+                  font-size: 25px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  border-right: solid #ffffff 1px;
+                  padding-left: 10px;
+                  padding-right: 10px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .vk-button .vk-text {
+                  font-size: 20px;
+                  margin-top: 6px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  font-weight: bold;
+                  padding-left: 3px; }
         body .page .main-info-pr-page .product-info .pr-info {
           display: block;
           width: 100%; }
