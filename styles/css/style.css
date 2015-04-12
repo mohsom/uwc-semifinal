@@ -908,7 +908,7 @@ body {
       body .page .main-info-pr-page .product-info {
         display: inline-block;
         float: left;
-        margin-left: 100px; }
+        padding-left: 100px; }
         body .page .main-info-pr-page .product-info .short-info {
           display: block;
           width: 100%; }
@@ -936,7 +936,6 @@ body {
                 overflow: hidden; }
           body .page .main-info-pr-page .product-info .short-info .pr-sh-info {
             display: inline-block;
-            margin-right: 180px;
             width: 400px;
             margin-left: 65px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-title {
@@ -1140,7 +1139,8 @@ body {
             border-bottom: dashed #01b4d5 1px; }
       body .page .main-info-pr-page .contacts {
         display: inline-block;
+        float: right;
         width: 300px;
-        float: right; }
+        margin-right: 45px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1077,7 +1077,7 @@ body {
       .product-info {
         display: inline-block;
         float: left;
-        margin-left: 100px;
+        padding-left: 100px;
         .short-info {
           display: block;
           width: 100%;
@@ -1112,7 +1112,6 @@ body {
           }
           .pr-sh-info {
             display: inline-block;
-            margin-right: 180px;
             width: 400px;
             margin-left: 65px;
             .pr-title {
@@ -1358,8 +1357,9 @@ body {
       }
       .contacts {
         display: inline-block;
-        width: 300px;
         float: right;
+        width: 300px;
+        margin-right: 45px;
       }
     }
   }
