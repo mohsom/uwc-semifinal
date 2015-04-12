@@ -979,16 +979,18 @@ body {
                 overflow: hidden; }
           body .page .main-info-pr-page .product-info .short-info .pr-sh-info {
             display: inline-block;
-            width: 400px;
-            margin-left: 65px; }
+            width: 394px;
+            margin-left: 50px;
+            margin-top: -10px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-title {
-              font-size: 20px;
+              font-size: 22px;
               text-transform: uppercase;
               font-weight: 900; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc {
               display: block;
-              margin-top: 45px;
-              padding-bottom: 35px;
+              margin-top: 35px;
+              margin-left: -5px;
+              padding-bottom: 42px;
               border-bottom: solid #000000 1px; }
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .desc-row {
                 display: block;
@@ -1003,14 +1005,14 @@ body {
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-title {
                   font-weight: bold;
                   display: block;
-                  margin-bottom: 15px; }
+                  margin-bottom: 20px; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .pr-clr {
                   cursor: pointer;
                   display: inline-block;
                   width: 25px;
                   height: 25px;
                   border-radius: 25px;
-                  margin-right: 7px; }
+                  margin-right: 20px; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-active {
                   border: solid #000000 2px;
                   transform: scale(1.2); }
@@ -1025,9 +1027,9 @@ body {
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-sh-price {
                 display: block;
                 color: #e7302c;
-                font-size: 25px;
+                font-size: 30px;
                 font-weight: 900;
-                margin-top: 35px; }
+                margin-top: 40px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw {
               display: block;
               margin-top: 40px;
@@ -1185,36 +1187,44 @@ body {
         display: inline-block;
         float: right;
         width: 300px;
-        margin-right: 45px; }
+        margin-right: 70px;
+        margin-top: -5px; }
         body .page .main-info-pr-page .contacts .cn-company {
           display: block; }
           body .page .main-info-pr-page .contacts .cn-company img {
             display: block;
             margin-top: 15px;
             margin-bottom: 5px; }
+          body .page .main-info-pr-page .contacts .cn-company span {
+            font-size: 20px;
+            font-weight: 600; }
         body .page .main-info-pr-page .contacts .cnt-inf {
           display: block;
-          width: 100%; }
+          width: 100%;
+          padding-top: 25px; }
           body .page .main-info-pr-page .contacts .cnt-inf .cnt-item {
             display: block;
             width: 100%;
-            margin-top: 30px; }
+            margin-bottom: 25px;
+            margin-left: 10px; }
             body .page .main-info-pr-page .contacts .cnt-inf .cnt-item i {
               display: inline-block;
               vertical-align: middle;
               color: #01b4d5;
-              font-size: 25px;
+              font-size: 30px;
               margin-right: 15px; }
             body .page .main-info-pr-page .contacts .cnt-inf .cnt-item .strong {
               font-weight: 900; }
             body .page .main-info-pr-page .contacts .cnt-inf .cnt-item span {
               display: inline-block;
-              vertical-align: middle; }
+              vertical-align: middle;
+              font-size: 18px; }
               body .page .main-info-pr-page .contacts .cnt-inf .cnt-item span a {
                 color: #01b4d5;
                 text-decoration: underline; }
           body .page .main-info-pr-page .contacts .cnt-inf .cnt-map {
             display: block;
-            margin-top: 45px; }
+            margin-top: 55px;
+            margin-left: 3px; }
 
 /*# sourceMappingURL=style.css.map */

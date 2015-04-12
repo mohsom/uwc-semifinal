@@ -1155,17 +1155,19 @@ body {
           }
           .pr-sh-info {
             display: inline-block;
-            width: 400px;
-            margin-left: 65px;
+            width: 394px;
+            margin-left: 50px;
+            margin-top: -10px;
             .pr-title {
-              font-size: 20px;
+              font-size: 22px;
               text-transform: uppercase;
               font-weight: 900;
             }
             .pr-sh-desc {
               display: block;
-              margin-top: 45px;
-              padding-bottom: 35px;
+              margin-top: 35px;
+              margin-left: -5px;
+              padding-bottom: 42px;
               border-bottom: solid #000000 1px;
               .desc-row {
                 display: block;
@@ -1182,7 +1184,7 @@ body {
                 .clr-title {
                   font-weight: bold;
                   display: block;
-                  margin-bottom: 15px;
+                  margin-bottom: 20px;
                 }
                 .pr-clr {
                   cursor: pointer;
@@ -1190,7 +1192,7 @@ body {
                   width: 25px;
                   height: 25px;
                   border-radius: 25px;
-                  margin-right: 7px;
+                  margin-right: 20px;
                 }
                 .clr-active {
                   border: solid #000000 2px;
@@ -1212,9 +1214,9 @@ body {
               .pr-sh-price {
                 display: block;
                 color: $red;
-                font-size: 25px;
+                font-size: 30px;
                 font-weight: 900;
-                margin-top: 35px;
+                margin-top: 40px;
               }
             }
             .pr-sh-snw {
@@ -1403,7 +1405,8 @@ body {
         display: inline-block;
         float: right;
         width: 300px;
-        margin-right: 45px;
+        margin-right: 70px;
+        margin-top: -5px;
         .cn-company {
           display: block;
           img {
@@ -1411,19 +1414,25 @@ body {
             margin-top: 15px;
             margin-bottom: 5px;
           }
+          span{
+            font-size: 20px;
+            font-weight: 600;
+          }
         }
         .cnt-inf {
           display: block;
           width: 100%;
+          padding-top: 25px;
           .cnt-item {
             display: block;
             width: 100%;
-            margin-top: 30px;
+            margin-bottom: 25px;
+            margin-left: 10px;
             i {
               display: inline-block;
               vertical-align: middle;
               color: $blue;
-              font-size: 25px;
+              font-size: 30px;
               margin-right: 15px;
             }
             .strong {
@@ -1432,6 +1441,7 @@ body {
             span {
               display: inline-block;
               vertical-align: middle;
+              font-size: 18px;
               a {
                 color: $blue;
                 text-decoration: underline;
@@ -1440,7 +1450,8 @@ body {
           }
           .cnt-map {
             display: block;
-            margin-top: 45px;
+            margin-top: 55px;
+            margin-left: 3px;
           }
         }
       }
