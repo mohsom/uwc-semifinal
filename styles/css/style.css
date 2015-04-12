@@ -935,8 +935,7 @@ body {
               width: 125px; }
     body .page .main-info-pr-page {
       display: block;
-      width: 100%;
-      min-height: 870px; }
+      width: 100%; }
       body .page .main-info-pr-page .breadcrumb {
         cursor: pointer;
         background-color: #ffffff;
