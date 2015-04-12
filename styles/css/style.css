@@ -527,13 +527,15 @@ body {
               cursor: pointer; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-button i {
                 display: inline-block;
-                font-weight: bold; }
+                font-weight: bold;
+                vertical-align: middle; }
               body .page .main-content .social-networks .sw-items .sw-item .sw-button .sw-bt-add {
                 display: inline-block;
                 border-left: solid #ffffff 1px;
                 padding-left: 10px;
                 font-weight: bold;
-                font-size: 17px; }
+                font-size: 17px;
+                vertical-align: middle; }
             body .page .main-content .social-networks .sw-items .sw-item #fb {
               background-color: #3d5a99; }
             body .page .main-content .social-networks .sw-items .sw-item #vk {
