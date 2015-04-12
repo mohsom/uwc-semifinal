@@ -129,19 +129,19 @@ body {
           display: inline-block;
           position: absolute;
           margin-top: 15px;
-          margin-left: 65px;
+          margin-left: 45px;
         }
         .menu-items {
           display: inline-block;
           height: 100%;
-          margin-left: 360px;
+          margin-left: 370px;
           .menu-item {
             text-transform: uppercase;
             display: inline-block;
             padding-top: 40px;
             font-weight: 900;
             font-size: 18px;
-            margin-left: 60px;
+            margin-left: 50px;
             height: 100%;
             cursor: pointer;
             i.fa-sort-desc {
@@ -244,9 +244,12 @@ body {
             }
           }
           #search {
-            margin-left: -20px;
+            margin-left: -25px;
+            margin-top: -5px;
             border-color: #000000;
             z-index: 1;
+            width: 260px;
+            height: 40px;
           }
           .search-icon {
             margin-left: -30px;

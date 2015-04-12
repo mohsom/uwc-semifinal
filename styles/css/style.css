@@ -148,18 +148,18 @@ body {
           display: inline-block;
           position: absolute;
           margin-top: 15px;
-          margin-left: 65px; }
+          margin-left: 45px; }
         body .page .header .menu .menu-items {
           display: inline-block;
           height: 100%;
-          margin-left: 360px; }
+          margin-left: 370px; }
           body .page .header .menu .menu-items .menu-item {
             text-transform: uppercase;
             display: inline-block;
             padding-top: 40px;
             font-weight: 900;
             font-size: 18px;
-            margin-left: 60px;
+            margin-left: 50px;
             height: 100%;
             cursor: pointer; }
             body .page .header .menu .menu-items .menu-item i.fa-sort-desc {
@@ -234,9 +234,12 @@ body {
           body .page .header .menu .menu-items #with-dr:hover ul {
             visibility: visible; }
           body .page .header .menu .menu-items #search {
-            margin-left: -20px;
+            margin-left: -25px;
+            margin-top: -5px;
             border-color: #000000;
-            z-index: 1; }
+            z-index: 1;
+            width: 260px;
+            height: 40px; }
           body .page .header .menu .menu-items .search-icon {
             margin-left: -30px;
             margin-top: 7px;
