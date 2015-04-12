@@ -949,6 +949,32 @@ body {
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .desc-row span {
                   font-weight: bold;
                   line-height: 20px; }
+              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color {
+                display: block;
+                width: 100%;
+                margin-top: 40px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-title {
+                  font-weight: bold;
+                  display: block;
+                  margin-bottom: 25px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .pr-clr {
+                  cursor: pointer;
+                  display: inline-block;
+                  width: 25px;
+                  height: 25px;
+                  border-radius: 25px;
+                  margin-right: 7px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-active {
+                  border: solid #000000 2px;
+                  transform: scale(1.2); }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-fl {
+                  background-color: #8141b8; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-bl {
+                  background-color: #01b4d5; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-yw {
+                  background-color: #f6d416; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-rd {
+                  background-color: #e7302c; }
         body .page .main-info-pr-page .product-info .pr-info {
           display: block;
           width: 100%; }

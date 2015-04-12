@@ -1125,6 +1125,40 @@ body {
                   line-height: 20px;
                 }
               }
+              .pr-color {
+                display: block;
+                width: 100%;
+                margin-top: 40px;
+                .clr-title {
+                  font-weight: bold;
+                  display: block;
+                  margin-bottom: 25px;
+                }
+                .pr-clr {
+                  cursor: pointer;
+                  display: inline-block;
+                  width: 25px;
+                  height: 25px;
+                  border-radius: 25px;
+                  margin-right: 7px;
+                }
+                .clr-active{
+                  border: solid #000000 2px;
+                  transform: scale(1.2);
+                }
+                .clr-fl {
+                  background-color: #8141b8;
+                }
+                .clr-bl {
+                  background-color: $blue;
+                }
+                .clr-yw {
+                  background-color: $yellow;
+                }
+                .clr-rd {
+                  background-color: $red;
+                }
+              }
             }
           }
         }
