@@ -785,14 +785,15 @@ body {
             background: url("../../img/ctbn2.png"); }
             body .page .body .right-block .ctg-banners #bn2 .ctg-bn-cnt {
               position: absolute;
-              font-size: 20px;
-              margin-top: 240px;
+              font-size: 17px;
+              margin-top: 255px;
               margin-left: 30px;
               width: 235px; }
               body .page .body .right-block .ctg-banners #bn2 .ctg-bn-cnt span {
                 background-color: #ffffff;
-                line-height: 25px;
-                font-style: italic; }
+                line-height: 20px;
+                font-style: italic;
+                font-weight: 600; }
                 body .page .body .right-block .ctg-banners #bn2 .ctg-bn-cnt span span {
                   font-style: normal;
                   color: #e7302c;
