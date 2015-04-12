@@ -672,7 +672,7 @@ body {
         margin-left: 70px;
         margin-bottom: 35px;
         color: #919191;
-        font-weight: bold; }
+        font-weight: 900; }
         body .page .body .breadcrumb li {
           cursor: pointer; }
       body .page .body .right-block {
@@ -682,7 +682,7 @@ body {
         body .page .body .right-block .rbl-top {
           display: block; }
           body .page .body .right-block .rbl-top .rbl-title span {
-            font-weight: bold; }
+            font-weight: 900; }
         body .page .body .right-block .sort {
           display: block;
           float: right;
@@ -700,7 +700,7 @@ body {
               height: 40px;
               text-align: left;
               border: solid #000000 1px;
-              font-weight: bold; }
+              font-weight: 900; }
               body .page .body .right-block .sort .btn-group button .btn-title {
                 margin-left: 20px; }
               body .page .body .right-block .sort .btn-group button .caret {
@@ -733,12 +733,12 @@ body {
                 color: #ffffff;
                 font-size: 30px;
                 text-transform: uppercase;
-                font-weight: bold; }
+                font-weight: 900; }
               body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-desc {
                 display: block;
                 margin-top: 20px; }
                 body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .ctg-bn-desc span {
-                  font-weight: bold; }
+                  font-weight: 900; }
               body .page .body .right-block .ctg-banners #bn1 .ctg-bn-cnt .bn-price {
                 display: block;
                 width: 160px;
@@ -748,7 +748,7 @@ body {
                 padding-top: 10px;
                 color: #ffffff;
                 font-size: 30px;
-                font-weight: bold;
+                font-weight: 900;
                 text-align: center;
                 margin-top: 100px; }
           body .page .body .right-block .ctg-banners #bn2 {
@@ -760,12 +760,13 @@ body {
               margin-left: 30px;
               width: 235px; }
               body .page .body .right-block .ctg-banners #bn2 .ctg-bn-cnt span {
-                background-color: white;
+                background-color: #ffffff;
+                line-height: 25px;
                 font-style: italic; }
                 body .page .body .right-block .ctg-banners #bn2 .ctg-bn-cnt span span {
                   font-style: normal;
                   color: #e7302c;
-                  font-weight: bold;
+                  font-weight: 900;
                   text-transform: uppercase; }
         body .page .body .right-block .products {
           display: block;
@@ -782,7 +783,7 @@ body {
                 height: 300px; }
               body .page .body .right-block .products .row .col-xs-6 .tr-desc {
                 width: 100%;
-                font-weight: bold;
+                font-weight: 900;
                 margin-top: 30px; }
                 body .page .body .right-block .products .row .col-xs-6 .tr-desc .tr-text {
                   display: block;
@@ -814,7 +815,7 @@ body {
               display: block;
               color: #7e7e7e;
               text-transform: uppercase;
-              font-weight: bold;
+              font-weight: 900;
               font-size: 17px;
               margin-top: 20px; }
       body .page .body .left-block {
@@ -826,7 +827,7 @@ body {
           display: block;
           text-transform: uppercase;
           font-size: 18px;
-          font-weight: bold; }
+          font-weight: 900; }
         body .page .body .left-block .lfbl-menu {
           display: block;
           width: 100%;
@@ -855,7 +856,7 @@ body {
             display: inline-block;
             text-transform: uppercase;
             font-size: 18px;
-            font-weight: bold;
+            font-weight: 900;
             vertical-align: middle; }
           body .page .body .left-block .config .cnfg-top .cnfg-reset {
             display: inline-block;
@@ -904,7 +905,7 @@ body {
         margin-left: 70px;
         margin-bottom: 35px;
         color: #919191;
-        font-weight: bold; }
+        font-weight: 900; }
         body .page .main-info-pr-page .breadcrumb li {
           cursor: pointer; }
       body .page .main-info-pr-page .product-info {
@@ -943,7 +944,7 @@ body {
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-title {
               font-size: 20px;
               text-transform: uppercase;
-              font-weight: bold; }
+              font-weight: 900; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc {
               display: block;
               margin-top: 45px;
@@ -953,7 +954,7 @@ body {
                 display: block;
                 width: 100%; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .desc-row span {
-                  font-weight: bold;
+                  font-weight: 900;
                   line-height: 20px; }
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color {
                 display: block;
@@ -985,7 +986,7 @@ body {
                 display: block;
                 color: #e7302c;
                 font-size: 25px;
-                font-weight: bold;
+                font-weight: 900;
                 margin-top: 35px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw {
               display: block;
@@ -1124,13 +1125,13 @@ body {
             display: block;
             text-transform: uppercase;
             font-size: 20px;
-            font-weight: bold;
+            font-weight: 900;
             margin-bottom: 25px; }
           body .page .main-info-pr-page .product-info .pr-info .pr-inf-subtitle {
             display: block;
             text-transform: uppercase;
             font-size: 18px;
-            font-weight: bold;
+            font-weight: 900;
             margin-bottom: 10px; }
           body .page .main-info-pr-page .product-info .pr-info .pr-inf-body {
             line-height: 20px;
@@ -1165,7 +1166,7 @@ body {
               font-size: 25px;
               margin-right: 15px; }
             body .page .main-info-pr-page .contacts .cnt-inf .cnt-item .strong {
-              font-weight: bold; }
+              font-weight: 900; }
             body .page .main-info-pr-page .contacts .cnt-inf .cnt-item span {
               display: inline-block;
               vertical-align: middle; }
