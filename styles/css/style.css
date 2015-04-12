@@ -1142,5 +1142,10 @@ body {
         float: right;
         width: 300px;
         margin-right: 45px; }
+        body .page .main-info-pr-page .contacts .cn-company {
+          display: block; }
+          body .page .main-info-pr-page .contacts .cn-company img {
+            display: block;
+            margin-top: 15px; }
 
 /*# sourceMappingURL=style.css.map */

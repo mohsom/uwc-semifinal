@@ -1360,6 +1360,13 @@ body {
         float: right;
         width: 300px;
         margin-right: 45px;
+        .cn-company{
+          display: block;
+          img{
+            display: block;
+            margin-top: 15px;
+          }
+        }
       }
     }
   }
