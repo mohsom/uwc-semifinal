@@ -938,8 +938,6 @@ body {
           body .page .main-info-pr-page .product-info .short-info .pr-sh-info {
             display: inline-block;
             margin-right: 180px;
-            padding-bottom: 45px;
-            border-bottom: solid #000000 1px;
             float: right; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-title {
               font-size: 20px;
@@ -947,7 +945,9 @@ body {
               font-weight: bold; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc {
               display: block;
-              margin-top: 45px; }
+              margin-top: 45px;
+              padding-bottom: 45px;
+              border-bottom: solid #000000 1px; }
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .desc-row {
                 display: block;
                 width: 100%; }
@@ -986,6 +986,32 @@ body {
                 font-size: 25px;
                 font-weight: bold;
                 margin-top: 50px; }
+            body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw {
+              display: block;
+              margin-top: 40px; }
+              body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .fb-button {
+                display: block;
+                background-color: #3d5a99;
+                border-radius: 3px;
+                width: 100px;
+                height: 35px;
+                cursor: pointer;
+                color: #ffffff; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .fb-button i {
+                  margin-top: 5px;
+                  font-size: 25px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  border-right: solid #ffffff 1px;
+                  padding-left: 10px;
+                  padding-right: 10px; }
+                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .fb-button span {
+                  font-size: 15px;
+                  margin-top: 3px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  font-weight: bold;
+                  padding-left: 10px; }
         body .page .main-info-pr-page .product-info .pr-info {
           display: block;
           width: 100%; }
