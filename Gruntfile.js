@@ -140,5 +140,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.registerTask('build', ['clean:build', 'sass', 'cssmin', 'htmlmin', 'imagemin','copy']);
     grunt.registerTask('serve', ['sass', 'connect', 'watch']);
-    grunt.registerTask('valid', ['validation']);
+    grunt.registerTask('valid', ['validation','scsslint']);
 };
