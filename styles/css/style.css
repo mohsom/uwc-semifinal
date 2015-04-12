@@ -938,7 +938,6 @@ body {
             display: inline-block;
             margin-right: 180px;
             width: 400px;
-            float: right;
             margin-left: 65px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-title {
               font-size: 20px;
@@ -947,7 +946,7 @@ body {
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc {
               display: block;
               margin-top: 45px;
-              padding-bottom: 45px;
+              padding-bottom: 35px;
               border-bottom: solid #000000 1px; }
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .desc-row {
                 display: block;
@@ -958,11 +957,11 @@ body {
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color {
                 display: block;
                 width: 100%;
-                margin-top: 40px; }
+                margin-top: 30px; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .clr-title {
                   font-weight: bold;
                   display: block;
-                  margin-bottom: 25px; }
+                  margin-bottom: 15px; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-desc .pr-color .pr-clr {
                   cursor: pointer;
                   display: inline-block;
@@ -986,7 +985,7 @@ body {
                 color: #e7302c;
                 font-size: 25px;
                 font-weight: bold;
-                margin-top: 50px; }
+                margin-top: 35px; }
             body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw {
               display: block;
               margin-top: 40px;

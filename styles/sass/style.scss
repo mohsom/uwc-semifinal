@@ -1114,7 +1114,6 @@ body {
             display: inline-block;
             margin-right: 180px;
             width: 400px;
-            float: right;
             margin-left: 65px;
             .pr-title {
               font-size: 20px;
@@ -1124,7 +1123,7 @@ body {
             .pr-sh-desc {
               display: block;
               margin-top: 45px;
-              padding-bottom: 45px;
+              padding-bottom: 35px;
               border-bottom: solid #000000 1px;
               .desc-row {
                 display: block;
@@ -1137,11 +1136,11 @@ body {
               .pr-color {
                 display: block;
                 width: 100%;
-                margin-top: 40px;
+                margin-top: 30px;
                 .clr-title {
                   font-weight: bold;
                   display: block;
-                  margin-bottom: 25px;
+                  margin-bottom: 15px;
                 }
                 .pr-clr {
                   cursor: pointer;
@@ -1173,7 +1172,7 @@ body {
                 color: $red;
                 font-size: 25px;
                 font-weight: bold;
-                margin-top: 50px;
+                margin-top: 35px;
               }
             }
             .pr-sh-snw {
