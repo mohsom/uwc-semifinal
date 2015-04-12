@@ -1140,6 +1140,7 @@ body {
             border-bottom: dashed #01b4d5 1px; }
       body .page .main-info-pr-page .contacts {
         display: inline-block;
+        width: 300px;
         float: right; }
 
 /*# sourceMappingURL=style.css.map */
