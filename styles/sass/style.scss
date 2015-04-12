@@ -173,20 +173,22 @@ body {
                   width: 100%;
                   .catal-row {
                     display: inline-block;
-                    margin-left: 80px;
+                    margin-left: 60px;
                     .crow-item {
                       display: block;
                       margin-bottom: 30px;
                       cursor: pointer;
+                      width: 240px;
                       i {
                         display: inline-block;
                         vertical-align: middle;
-                        width: 50px;
-                        height: 50px;
+                        width: 45px;
+                        height: 45px;
                         border-radius: 50px;
                         text-align: center;
                         img {
-                          margin: 10px;
+                          display: inline-block;
+                          margin-top: 7px;
                         }
                       }
                       #cr1 {
@@ -231,6 +233,7 @@ body {
                         vertical-align: middle;
                         text-transform: none;
                         margin-left: 10px;
+                        font-size: 16px;
                       }
                     }
                   }
