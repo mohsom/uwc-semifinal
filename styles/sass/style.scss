@@ -798,11 +798,12 @@ body {
       .breadcrumb {
         cursor: pointer;
         background-color: #ffffff;
-        margin-top: 45px;
-        margin-left: 70px;
+        margin-top: 35px;
+        margin-left: 52px;
         margin-bottom: 35px;
         color: #919191;
-        font-weight: 900;
+        font-weight: 600;
+        font-size: 17px;
         li {
           cursor: pointer;
         }
@@ -814,6 +815,7 @@ body {
         .rbl-top {
           display: block;
           .rbl-title {
+            font-weight: 500;
             span {
               font-weight: 900;
             }
@@ -828,6 +830,7 @@ body {
             display: inline-block;
             vertical-align: middle;
             margin-right: 30px;
+            font-weight: 700;
           }
           .btn-group {
             display: inline-block;
@@ -837,7 +840,7 @@ body {
               height: 40px;
               text-align: left;
               border: solid #000000 1px;
-              font-weight: 900;
+              font-weight: 700;
               .btn-title {
                 margin-left: 20px;
               }
@@ -989,7 +992,8 @@ body {
         display: inline-block;
         width: 265px;
         float: left;
-        margin-left: 85px;
+        margin-left: 65px;
+        margin-top: -5px;
         .ctg-title {
           display: block;
           text-transform: uppercase;
@@ -999,8 +1003,9 @@ body {
         .lfbl-menu {
           display: block;
           width: 100%;
-          margin-top: 40px;
-          padding-bottom: 30px;
+          margin-top: 20px;
+          margin-left: -5px;
+          padding-bottom: 20px;
           .lfbl-menu-item {
             display: block;
             width: 100%;
@@ -1011,7 +1016,7 @@ body {
               display: block;
               height: 100%;
               padding-top: 13px;
-              padding-left: 23px;
+              padding-left: 20px;
             }
           }
           .lfbl-menu-item:hover {
@@ -1023,7 +1028,7 @@ body {
           .cnfg-top {
             display: block;
             width: 220px;
-            padding-top: 40px;
+            padding-top: 37px;
             border-top: solid #000000 1px;
             .cnfg-title {
               display: inline-block;
@@ -1048,7 +1053,8 @@ body {
           .cnfg-main {
             display: block;
             width: 100%;
-            margin-top: 20px;
+            margin-top: 32px;
+            margin-left: -5px;
             .chbox {
               display: block;
               width: 175px;
@@ -1072,7 +1078,7 @@ body {
                 display: inline-block;
                 vertical-align: middle;
                 word-break: normal;
-                margin-left: 25px;
+                margin-left: 18px;
                 width: 125px;
               }
             }
