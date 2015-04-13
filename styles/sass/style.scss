@@ -1019,6 +1019,10 @@ body {
             width: 100%;
             text-align: center;
             margin-bottom: 45px;
+            .circle:hover {
+              transform: rotateZ(360deg);
+              transition: all 0.5s;
+            }
             .circle {
               display: block;
               margin: 65px auto 0 auto;
@@ -1031,6 +1035,7 @@ body {
               font-size: 30px;
               padding-top: 7px;
               cursor: pointer;
+              transition: all 0.5s;
             }
             span {
               display: block;
@@ -1098,11 +1103,16 @@ body {
               vertical-align: middle;
               color: #545454;
               margin-left: 15px;
+              i:hover{
+                transform: rotateZ(360deg);
+                transition: all 0.5s;
+              }
               i {
                 font-size: 20px;
                 margin-left: 10px;
                 vertical-align: middle;
                 cursor: pointer;
+                transition: all 0.5s;
               }
             }
           }
@@ -1114,14 +1124,18 @@ body {
             .chbox {
               display: block;
               width: 175px;
+              .checkbox:hover{
+                background-color: $blue;
+                transition: all 0.2s;
+              }
               .checkbox {
-                content: '';
                 display: inline-block;
                 width: 25px;
                 height: 25px;
                 background-color: #c8c8c8;
                 cursor: pointer;
                 vertical-align: middle;
+                transition: all 0.2s;
               }
               .ch-active {
                 background-color: $blue;

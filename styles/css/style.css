@@ -864,6 +864,9 @@ body {
             width: 100%;
             text-align: center;
             margin-bottom: 45px; }
+            body .page .body .right-block .products .download-more .circle:hover {
+              transform: rotateZ(360deg);
+              transition: all 0.5s; }
             body .page .body .right-block .products .download-more .circle {
               display: block;
               margin: 65px auto 0 auto;
@@ -875,7 +878,8 @@ body {
               text-align: center;
               font-size: 30px;
               padding-top: 7px;
-              cursor: pointer; }
+              cursor: pointer;
+              transition: all 0.5s; }
             body .page .body .right-block .products .download-more span {
               display: block;
               color: #7e7e7e;
@@ -931,11 +935,15 @@ body {
             vertical-align: middle;
             color: #545454;
             margin-left: 15px; }
+            body .page .body .left-block .config .cnfg-top .cnfg-reset i:hover {
+              transform: rotateZ(360deg);
+              transition: all 0.5s; }
             body .page .body .left-block .config .cnfg-top .cnfg-reset i {
               font-size: 20px;
               margin-left: 10px;
               vertical-align: middle;
-              cursor: pointer; }
+              cursor: pointer;
+              transition: all 0.5s; }
         body .page .body .left-block .config .cnfg-main {
           display: block;
           width: 100%;
@@ -944,14 +952,17 @@ body {
           body .page .body .left-block .config .cnfg-main .chbox {
             display: block;
             width: 175px; }
+            body .page .body .left-block .config .cnfg-main .chbox .checkbox:hover {
+              background-color: #01b4d5;
+              transition: all 0.2s; }
             body .page .body .left-block .config .cnfg-main .chbox .checkbox {
-              content: '';
               display: inline-block;
               width: 25px;
               height: 25px;
               background-color: #c8c8c8;
               cursor: pointer;
-              vertical-align: middle; }
+              vertical-align: middle;
+              transition: all 0.2s; }
             body .page .body .left-block .config .cnfg-main .chbox .ch-active {
               background-color: #01b4d5;
               color: white;
