@@ -636,6 +636,9 @@ body {
             #mail::-webkit-input-placeholder, #name::-webkit-input-placeholder {
               color: #ffffff;
             }
+            #mail::-moz-placeholder, #name::-moz-placeholder {
+              color: #ffffff;
+            }
           }
           #subscribe:hover {
             background-color: rgba(250, 250, 250, 0.7);

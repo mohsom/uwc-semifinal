@@ -556,6 +556,8 @@ body {
               font-size: 17px; }
             body .page .main-content .subscribe .sbs-form .form-group #mail::-webkit-input-placeholder, body .page .main-content .subscribe .sbs-form .form-group #name::-webkit-input-placeholder {
               color: #ffffff; }
+            body .page .main-content .subscribe .sbs-form .form-group #mail::-moz-placeholder, body .page .main-content .subscribe .sbs-form .form-group #name::-moz-placeholder {
+              color: #ffffff; }
           body .page .main-content .subscribe .sbs-form #subscribe:hover {
             background-color: rgba(250, 250, 250, 0.7);
             transition: all 0.2s; }
