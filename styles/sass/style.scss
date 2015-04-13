@@ -245,11 +245,16 @@ body {
                       display: inline-block;
                       margin-right: -70px;
                       width: 240px;
+                      .crow-item:hover {
+                        color: $yellow;
+                        transition: all 0.2s;
+                      }
                       .crow-item {
                         display: block;
                         margin-bottom: 30px;
                         cursor: pointer;
                         width: 100%;
+                        transition: all 0.2s;
                         i {
                           display: inline-block;
                           vertical-align: middle;

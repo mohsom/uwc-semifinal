@@ -246,11 +246,15 @@ body {
                   display: inline-block;
                   margin-right: -70px;
                   width: 240px; }
+                  body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item:hover {
+                    color: #f6d416;
+                    transition: all 0.2s; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item {
                     display: block;
                     margin-bottom: 30px;
                     cursor: pointer;
-                    width: 100%; }
+                    width: 100%;
+                    transition: all 0.2s; }
                     body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item i {
                       display: inline-block;
                       vertical-align: middle;
