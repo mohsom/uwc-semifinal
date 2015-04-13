@@ -6,6 +6,15 @@
 
 body {
   font-family: $font;
+  .breadcrumb {
+    background-color: #ffffff;
+    color: #919191;
+    font-weight: 600;
+    font-size: 17px;
+    li {
+      cursor: pointer;
+    }
+  }
   a.tooltips {
     position: relative;
     display: inline;
@@ -796,17 +805,9 @@ body {
       width: 100%;
       margin-bottom: 40px;
       .breadcrumb {
-        cursor: pointer;
-        background-color: #ffffff;
         margin-top: 35px;
         margin-left: 52px;
         margin-bottom: 35px;
-        color: #919191;
-        font-weight: 600;
-        font-size: 17px;
-        li {
-          cursor: pointer;
-        }
       }
       .right-block {
         display: inline-block;
@@ -1105,17 +1106,9 @@ body {
       display: block;
       width: 100%;
       .breadcrumb {
-        cursor: pointer;
-        background-color: #ffffff;
         margin-top: 35px;
         margin-left: 52px;
         margin-bottom: 35px;
-        color: #919191;
-        font-weight: 600;
-        font-size: 17px;
-        li {
-          cursor: pointer;
-        }
       }
       .product-info {
         display: inline-block;
@@ -1387,7 +1380,7 @@ body {
             margin-top: 15px;
             margin-bottom: 5px;
           }
-          span{
+          span {
             font-size: 20px;
             font-weight: 600;
           }

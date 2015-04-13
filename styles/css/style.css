@@ -48,6 +48,13 @@ table {
 
 body {
   font-family: "Open Sans", sans-serif; }
+  body .breadcrumb {
+    background-color: #ffffff;
+    color: #919191;
+    font-weight: 600;
+    font-size: 17px; }
+    body .breadcrumb li {
+      cursor: pointer; }
   body a.tooltips {
     position: relative;
     display: inline;
@@ -683,16 +690,9 @@ body {
       width: 100%;
       margin-bottom: 40px; }
       body .page .body .breadcrumb {
-        cursor: pointer;
-        background-color: #ffffff;
         margin-top: 35px;
         margin-left: 52px;
-        margin-bottom: 35px;
-        color: #919191;
-        font-weight: 600;
-        font-size: 17px; }
-        body .page .body .breadcrumb li {
-          cursor: pointer; }
+        margin-bottom: 35px; }
       body .page .body .right-block {
         display: inline-block;
         width: 855px;
@@ -938,16 +938,9 @@ body {
       display: block;
       width: 100%; }
       body .page .main-info-pr-page .breadcrumb {
-        cursor: pointer;
-        background-color: #ffffff;
         margin-top: 35px;
         margin-left: 52px;
-        margin-bottom: 35px;
-        color: #919191;
-        font-weight: 600;
-        font-size: 17px; }
-        body .page .main-info-pr-page .breadcrumb li {
-          cursor: pointer; }
+        margin-bottom: 35px; }
       body .page .main-info-pr-page .product-info {
         display: inline-block;
         float: left;
