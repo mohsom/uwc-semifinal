@@ -544,7 +544,8 @@ body {
           text-align: center; }
           body .page .main-content .subscribe .sbs-form .form-group {
             display: inline-block;
-            margin-left: 20px; }
+            margin-left: 20px;
+            vertical-align: middle; }
             body .page .main-content .subscribe .sbs-form .form-group #mail, body .page .main-content .subscribe .sbs-form .form-group #name {
               width: 419px;
               height: 55px;
@@ -560,6 +561,7 @@ body {
             transition: all 0.2s; }
           body .page .main-content .subscribe .sbs-form #subscribe {
             display: inline-block;
+            vertical-align: middle;
             background-color: #fafafa;
             width: 225px;
             height: 55px;
