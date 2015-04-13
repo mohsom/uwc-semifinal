@@ -996,7 +996,8 @@ body {
       body .page .main-info-pr-page .product-info {
         display: inline-block;
         float: left;
-        padding-left: 100px; }
+        padding-left: 100px;
+        width: 900px; }
         body .page .main-info-pr-page .product-info .short-info {
           display: block;
           width: 100%; }
