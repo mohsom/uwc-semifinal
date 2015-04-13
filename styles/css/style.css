@@ -186,6 +186,17 @@ body {
           display: inline-block;
           height: 100%;
           margin-left: 370px; }
+          body .page .header .menu .menu-items .menu-item:hover {
+            color: #01b4d5;
+            transition: all 0.2s; }
+          body .page .header .menu .menu-items #with-dr:hover {
+            color: #f6d416;
+            transition: all 0.2s; }
+            body .page .header .menu .menu-items #with-dr:hover ul {
+              color: #000000;
+              margin: 43px auto;
+              opacity: 1;
+              transition: all 0.5s; }
           body .page .header .menu .menu-items .menu-item {
             text-transform: uppercase;
             display: inline-block;
@@ -194,7 +205,8 @@ body {
             font-size: 18px;
             margin-left: 50px;
             height: 100%;
-            cursor: pointer; }
+            cursor: pointer;
+            transition: all 0.1s; }
             body .page .header .menu .menu-items .menu-item i.fa-sort-desc {
               font-size: 20px;
               vertical-align: top;
@@ -209,12 +221,14 @@ body {
             height: 300px;
             max-width: 100%;
             width: 1280px;
-            margin: 43px auto;
+            margin: 100px auto;
             left: 0;
             right: 0;
             background-color: #ffffff;
             visibility: hidden;
-            cursor: default; }
+            cursor: default;
+            opacity: 0;
+            transition: all 0.5s; }
             body .page .header .menu .menu-items #with-dr ul li .catalog-drop {
               margin-top: 50px;
               width: 100%; }

@@ -173,6 +173,20 @@ body {
           display: inline-block;
           height: 100%;
           margin-left: 370px;
+          .menu-item:hover {
+            color: $blue;
+            transition: all 0.2s;
+          }
+          #with-dr:hover {
+            color: $yellow;
+            transition: all 0.2s;
+            ul {
+              color: #000000;
+              margin: 43px auto;
+              opacity: 1;
+              transition: all 0.5s;
+            }
+          }
           .menu-item {
             text-transform: uppercase;
             display: inline-block;
@@ -182,6 +196,7 @@ body {
             margin-left: 50px;
             height: 100%;
             cursor: pointer;
+            transition: all 0.1s;
             i.fa-sort-desc {
               font-size: 20px;
               vertical-align: top;
@@ -199,12 +214,14 @@ body {
               height: 300px;
               max-width: 100%;
               width: 1280px;
-              margin: 43px auto;
+              margin: 100px auto;
               left: 0;
               right: 0;
               background-color: #ffffff;
               visibility: hidden;
               cursor: default;
+              opacity: 0;
+              transition: all 0.5s;
               li {
                 .catalog-drop {
                   margin-top: 50px;
