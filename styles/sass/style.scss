@@ -369,12 +369,13 @@ body {
         }
         .sub-title {
           display: block;
+          font-size: 18px;
           font-style: italic;
-          margin-top: 20px;
+          margin-top: 13px;
         }
         .line {
           display: block;
-          margin: 30px auto;
+          margin: 33px auto;
           width: 120px;
           height: 0;
           border-bottom: solid $red 5px;
@@ -384,6 +385,7 @@ body {
           margin: 20px auto;
           text-align: center;
           width: 580px;
+          font-size: 17px;
           line-height: 20px;
         }
       }
