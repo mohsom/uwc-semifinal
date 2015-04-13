@@ -918,7 +918,8 @@ body {
               padding-left: 20px; }
           body .page .body .left-block .lfbl-menu .lfbl-menu-item:hover {
             background-color: #f3f3f3;
-            border-left: solid #01b4d5 4px; }
+            border-left: solid #01b4d5 4px;
+            transition: all 0.2s; }
         body .page .body .left-block .config .cnfg-top {
           display: block;
           width: 220px;

@@ -631,7 +631,7 @@ body {
               color: #ffffff;
             }
           }
-          #subscribe:hover{
+          #subscribe:hover {
             background-color: rgba(250, 250, 250, 0.7);
             transition: all 0.2s;
           }
@@ -1073,6 +1073,7 @@ body {
             height: 40px;
             cursor: pointer;
             border-left: solid #ffffff 4px;
+            transition: all 0.2s;
             span {
               display: block;
               height: 100%;
@@ -1083,6 +1084,7 @@ body {
           .lfbl-menu-item:hover {
             background-color: #f3f3f3;
             border-left: solid $blue 4px;
+            transition: all 0.2s;
           }
         }
         .config {
@@ -1103,7 +1105,7 @@ body {
               vertical-align: middle;
               color: #545454;
               margin-left: 15px;
-              i:hover{
+              i:hover {
                 transform: rotateZ(360deg);
                 transition: all 0.5s;
               }
@@ -1124,7 +1126,7 @@ body {
             .chbox {
               display: block;
               width: 175px;
-              .checkbox:hover{
+              .checkbox:hover {
                 background-color: $blue;
                 transition: all 0.2s;
               }
