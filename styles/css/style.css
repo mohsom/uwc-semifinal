@@ -197,6 +197,15 @@ body {
               margin: 43px auto;
               opacity: 1;
               transition: all 0.5s; }
+              body .page .header .menu .menu-items #with-dr:hover ul li .catalog-drop {
+                margin-top: 50px;
+                width: 100%; }
+                body .page .header .menu .menu-items #with-dr:hover ul li .catalog-drop .catal-rows {
+                  margin-left: 60px; }
+                  body .page .header .menu .menu-items #with-dr:hover ul li .catalog-drop .catal-rows .catal-row {
+                    display: inline-block;
+                    margin-right: 30px;
+                    transition: all 0.7s; }
           body .page .header .menu .menu-items .menu-item {
             text-transform: uppercase;
             display: inline-block;
@@ -221,14 +230,13 @@ body {
             height: 300px;
             max-width: 100%;
             width: 1280px;
-            margin: 100px auto;
+            margin: 70px auto;
             left: 0;
             right: 0;
             background-color: #ffffff;
             visibility: hidden;
             cursor: default;
-            opacity: 0;
-            transition: all 0.5s; }
+            opacity: 0; }
             body .page .header .menu .menu-items #with-dr ul li .catalog-drop {
               margin-top: 50px;
               width: 100%; }
@@ -236,7 +244,7 @@ body {
                 margin-left: 60px; }
                 body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row {
                   display: inline-block;
-                  margin-right: 30px;
+                  margin-right: -70px;
                   width: 240px; }
                   body .page .header .menu .menu-items #with-dr ul li .catalog-drop .catal-rows .catal-row .crow-item {
                     display: block;

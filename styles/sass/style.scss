@@ -185,6 +185,20 @@ body {
               margin: 43px auto;
               opacity: 1;
               transition: all 0.5s;
+              li {
+                .catalog-drop {
+                  margin-top: 50px;
+                  width: 100%;
+                  .catal-rows {
+                    margin-left: 60px;
+                    .catal-row {
+                      display: inline-block;
+                      margin-right: 30px;
+                      transition: all 0.7s;
+                    }
+                  }
+                }
+              }
             }
           }
           .menu-item {
@@ -214,14 +228,13 @@ body {
               height: 300px;
               max-width: 100%;
               width: 1280px;
-              margin: 100px auto;
+              margin: 70px auto;
               left: 0;
               right: 0;
               background-color: #ffffff;
               visibility: hidden;
               cursor: default;
               opacity: 0;
-              transition: all 0.5s;
               li {
                 .catalog-drop {
                   margin-top: 50px;
@@ -230,7 +243,7 @@ body {
                     margin-left: 60px;
                     .catal-row {
                       display: inline-block;
-                      margin-right: 30px;
+                      margin-right: -70px;
                       width: 240px;
                       .crow-item {
                         display: block;
@@ -1149,7 +1162,7 @@ body {
                 cursor: pointer;
                 font-size: 40px;
               }
-              .sm-img:hover{
+              .sm-img:hover {
                 .thumbnail {
                   border: solid $blue 2px;
                 }
