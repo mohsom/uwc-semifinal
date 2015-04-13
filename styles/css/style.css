@@ -48,6 +48,32 @@ table {
 
 body {
   font-family: "Open Sans", sans-serif; }
+  body a.tooltips {
+    position: relative;
+    display: inline;
+    font-weight: bold; }
+  body a.tooltips span:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -12px;
+    width: 0;
+    height: 0;
+    border-right: 12px solid #7D7D7D;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent; }
+  body a.tooltips span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -8px;
+    width: 0;
+    height: 0;
+    border-right: 8px solid #FFFFFF;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; }
   body .page {
     width: 1280px;
     max-width: 100%;
@@ -567,10 +593,6 @@ body {
                 font-weight: bold; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-num #int span {
               margin-left: 140px; }
-            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips {
-              position: relative;
-              display: inline;
-              font-weight: bold; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span {
               position: absolute;
               width: 50px;
@@ -582,35 +604,13 @@ body {
               text-align: center;
               visibility: hidden;
               border-radius: 3px; }
-            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span:before {
-              content: '';
-              position: absolute;
-              top: 50%;
-              right: 100%;
-              margin-top: -12px;
-              width: 0;
-              height: 0;
-              border-right: 12px solid #7D7D7D;
-              border-top: 12px solid transparent;
-              border-bottom: 12px solid transparent; }
-            body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span:after {
-              content: '';
-              position: absolute;
-              top: 50%;
-              right: 100%;
-              margin-top: -8px;
-              width: 0;
-              height: 0;
-              border-right: 8px solid #FFFFFF;
-              border-top: 8px solid transparent;
-              border-bottom: 8px solid transparent; }
             body .page .main-content .social-networks .sw-items .sw-item .sw-num a.tooltips span {
               visibility: visible;
               opacity: 1;
               left: 100%;
               top: 50%;
               margin-top: -40px;
-              margin-left: 180px;
+              margin-left: 185px;
               z-index: 999; }
     body .page .footer {
       display: inline-block;
@@ -1037,15 +1037,11 @@ body {
               body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn {
                 display: inline-block; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num .fb-tooltip span {
-                  margin-left: 120px; }
+                  margin-left: 115px; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num .vk-tooltip span {
-                  margin-left: 95px; }
+                  margin-left: 90px; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num .tw-tooltip span {
-                  margin-left: 105px; }
-                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips {
-                  position: relative;
-                  display: inline;
-                  font-weight: bold; }
+                  margin-left: 100px; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span {
                   position: absolute;
                   width: 40px;
@@ -1057,28 +1053,6 @@ body {
                   text-align: center;
                   visibility: hidden;
                   border-radius: 3px; }
-                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span:before {
-                  content: '';
-                  position: absolute;
-                  top: 50%;
-                  right: 100%;
-                  margin-top: -12px;
-                  width: 0;
-                  height: 0;
-                  border-right: 12px solid #7D7D7D;
-                  border-top: 12px solid transparent;
-                  border-bottom: 12px solid transparent; }
-                body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span:after {
-                  content: '';
-                  position: absolute;
-                  top: 50%;
-                  right: 100%;
-                  margin-top: -8px;
-                  width: 0;
-                  height: 0;
-                  border-right: 8px solid #FFFFFF;
-                  border-top: 8px solid transparent;
-                  border-bottom: 8px solid transparent; }
                 body .page .main-info-pr-page .product-info .short-info .pr-sh-info .pr-sh-snw .snw-btn .sw-num a.tooltips span {
                   visibility: visible;
                   opacity: 1;

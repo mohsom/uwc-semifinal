@@ -6,6 +6,35 @@
 
 body {
   font-family: $font;
+  a.tooltips {
+    position: relative;
+    display: inline;
+    font-weight: bold;
+  }
+  a.tooltips span:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -12px;
+    width: 0;
+    height: 0;
+    border-right: 12px solid #7D7D7D;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
+  a.tooltips span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -8px;
+    width: 0;
+    height: 0;
+    border-right: 8px solid #FFFFFF;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+  }
   .page {
     width: 1280px;
     max-width: 100%;
@@ -657,11 +686,6 @@ body {
                   margin-left: 140px;
                 }
               }
-              a.tooltips {
-                position: relative;
-                display: inline;
-                font-weight: bold;
-              }
               a.tooltips span {
                 position: absolute;
                 width: 50px;
@@ -674,37 +698,13 @@ body {
                 visibility: hidden;
                 border-radius: 3px;
               }
-              a.tooltips span:before {
-                content: '';
-                position: absolute;
-                top: 50%;
-                right: 100%;
-                margin-top: -12px;
-                width: 0;
-                height: 0;
-                border-right: 12px solid #7D7D7D;
-                border-top: 12px solid transparent;
-                border-bottom: 12px solid transparent;
-              }
-              a.tooltips span:after {
-                content: '';
-                position: absolute;
-                top: 50%;
-                right: 100%;
-                margin-top: -8px;
-                width: 0;
-                height: 0;
-                border-right: 8px solid #FFFFFF;
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent;
-              }
               a.tooltips span {
                 visibility: visible;
                 opacity: 1;
                 left: 100%;
                 top: 50%;
                 margin-top: -40px;
-                margin-left: 180px;
+                margin-left: 185px;
                 z-index: 999;
               }
             }
@@ -1227,18 +1227,13 @@ body {
                 display: inline-block;
                 .sw-num {
                   .fb-tooltip span {
-                    margin-left: 120px;
+                    margin-left: 115px;
                   }
                   .vk-tooltip span {
-                    margin-left: 95px;
+                    margin-left: 90px;
                   }
                   .tw-tooltip span {
-                    margin-left: 105px;
-                  }
-                  a.tooltips {
-                    position: relative;
-                    display: inline;
-                    font-weight: bold;
+                    margin-left: 100px;
                   }
                   a.tooltips span {
                     position: absolute;
@@ -1251,30 +1246,6 @@ body {
                     text-align: center;
                     visibility: hidden;
                     border-radius: 3px;
-                  }
-                  a.tooltips span:before {
-                    content: '';
-                    position: absolute;
-                    top: 50%;
-                    right: 100%;
-                    margin-top: -12px;
-                    width: 0;
-                    height: 0;
-                    border-right: 12px solid #7D7D7D;
-                    border-top: 12px solid transparent;
-                    border-bottom: 12px solid transparent;
-                  }
-                  a.tooltips span:after {
-                    content: '';
-                    position: absolute;
-                    top: 50%;
-                    right: 100%;
-                    margin-top: -8px;
-                    width: 0;
-                    height: 0;
-                    border-right: 8px solid #FFFFFF;
-                    border-top: 8px solid transparent;
-                    border-bottom: 8px solid transparent;
                   }
                   a.tooltips span {
                     visibility: visible;
