@@ -548,6 +548,9 @@ body {
               font-size: 17px; }
             body .page .main-content .subscribe .sbs-form .form-group #mail::-webkit-input-placeholder, body .page .main-content .subscribe .sbs-form .form-group #name::-webkit-input-placeholder {
               color: #ffffff; }
+          body .page .main-content .subscribe .sbs-form #subscribe:hover {
+            background-color: rgba(250, 250, 250, 0.7);
+            transition: all 0.2s; }
           body .page .main-content .subscribe .sbs-form #subscribe {
             display: inline-block;
             background-color: #fafafa;
@@ -558,7 +561,8 @@ body {
             margin-left: 40px;
             color: #585757;
             font-size: 20px;
-            font-weight: 900; }
+            font-weight: 900;
+            transition: all 0.2s; }
       body .page .main-content .social-networks {
         display: block;
         width: 100%;
@@ -671,6 +675,9 @@ body {
           display: block;
           margin-left: 375px;
           margin-top: -25px; }
+          body .page .footer .ft-menu .footer-menu .ft-mn-item:hover {
+            color: #f6d416;
+            transition: all 0.2s; }
           body .page .footer .ft-menu .footer-menu .ft-mn-item {
             text-transform: uppercase;
             display: inline-block;

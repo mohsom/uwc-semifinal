@@ -631,6 +631,10 @@ body {
               color: #ffffff;
             }
           }
+          #subscribe:hover{
+            background-color: rgba(250, 250, 250, 0.7);
+            transition: all 0.2s;
+          }
           #subscribe {
             display: inline-block;
             background-color: rgba(250, 250, 250, 1);
@@ -642,6 +646,7 @@ body {
             color: #585757;
             font-size: 20px;
             font-weight: 900;
+            transition: all 0.2s;
           }
         }
       }
@@ -785,6 +790,10 @@ body {
           display: block;
           margin-left: 375px;
           margin-top: -25px;
+          .ft-mn-item:hover {
+            color: $yellow;
+            transition: all 0.2s;
+          }
           .ft-mn-item {
             text-transform: uppercase;
             display: inline-block;
@@ -794,6 +803,7 @@ body {
             height: 100%;
             width: 120px;
             cursor: pointer;
+            transition: all 0.2s;
           }
         }
       }
