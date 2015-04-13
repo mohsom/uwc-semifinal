@@ -686,7 +686,8 @@ body {
             margin-right: 40px;
             height: 100%;
             width: 120px;
-            cursor: pointer; }
+            cursor: pointer;
+            transition: all 0.2s; }
       body .page .footer .ft-snw {
         display: block;
         margin-left: 1070px;
