@@ -960,6 +960,8 @@ body {
               color: #01b4d5;
               cursor: pointer;
               font-size: 40px; }
+            body .page .main-info-pr-page .product-info .short-info .pr-imgs .row .sm-img:hover .thumbnail {
+              border: solid #01b4d5 2px; }
             body .page .main-info-pr-page .product-info .short-info .pr-imgs .row .sm-img {
               display: inline-block;
               width: 100px;
