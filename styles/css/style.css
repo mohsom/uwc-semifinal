@@ -326,7 +326,9 @@ body {
       height: 465px;
       padding-top: 60px;
       color: #181818;
-      z-index: 999; }
+      z-index: 999;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px; }
       body .page .banner .bn-block {
         display: block;
         margin: 0 auto;
