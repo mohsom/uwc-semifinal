@@ -135,17 +135,17 @@ body {
             display: inline-block;
             vertical-align: middle; }
         body .page .header .main-info .drop {
-          float: right;
           display: inline-block;
-          height: 100%;
+          height: 60px;
           width: 90px;
           border-left: solid #b6b6b6 1px;
           border-right: solid #b6b6b6 1px;
           margin-top: -45px;
-          margin-right: 70px;
-          cursor: pointer; }
+          margin-left: 1120px;
+          cursor: pointer;
+          position: absolute; }
           body .page .header .main-info .drop:hover ul li {
-            display: block;
+            visibility: visible;
             z-index: 9999999; }
           body .page .header .main-info .drop i {
             font-size: 25px;
@@ -161,11 +161,12 @@ body {
             text-align: center;
             width: 100%; }
             body .page .header .main-info .drop ul li {
-              display: none;
+              display: block;
               font-weight: 900;
               font-size: 16px;
               width: 100%;
               height: 100%;
+              visibility: hidden;
               background-color: #ffffff;
               padding-top: 22px; }
               body .page .header .main-info .drop ul li span {
@@ -173,7 +174,7 @@ body {
                 margin-left: -10px; }
             body .page .header .main-info .drop ul .active {
               vertical-align: middle;
-              display: block; }
+              visibility: visible; }
       body .page .header .menu {
         display: block;
         width: 100%;
