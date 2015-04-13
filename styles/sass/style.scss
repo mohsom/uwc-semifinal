@@ -1156,6 +1156,9 @@ body {
                 text-align: center;
                 padding-top: 2px;
               }
+              .ch-active:after {
+                content:'\2713'
+              }
               .cb-label {
                 display: inline-block;
                 vertical-align: middle;
