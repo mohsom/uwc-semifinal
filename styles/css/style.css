@@ -905,7 +905,8 @@ body {
         width: 265px;
         float: left;
         margin-left: 65px;
-        margin-top: -5px; }
+        margin-top: -5px;
+        font-weight: 600; }
         body .page .body .left-block .ctg-title {
           display: block;
           text-transform: uppercase;
@@ -935,7 +936,7 @@ body {
             transition: all 0.2s; }
         body .page .body .left-block .config .cnfg-top {
           display: block;
-          width: 220px;
+          width: 240px;
           padding-top: 37px;
           border-top: solid #000000 1px; }
           body .page .body .left-block .config .cnfg-top .cnfg-title {
