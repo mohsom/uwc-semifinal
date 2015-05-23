@@ -1273,7 +1273,8 @@ body {
             margin-top: 55px;
             margin-left: 3px; }
   body .notf-body {
-    display: block; }
+    display: block;
+    margin-bottom: 95px; }
     body .notf-body .nichosi {
       display: block;
       margin: 60px auto 0 auto;
@@ -1282,7 +1283,7 @@ body {
       display: block;
       width: 590px;
       height: 250px;
-      margin: -30px auto 0 auto;
+      margin: -26px auto 0 auto;
       -webkit-box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
       -moz-box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
       box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
@@ -1310,6 +1311,7 @@ body {
       width: 100%;
       text-align: center;
       text-decoration: underline;
-      font-weight: 600; }
+      font-weight: 800;
+      font-size: 25px; }
 
 /*# sourceMappingURL=style.css.map */
