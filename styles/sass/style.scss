@@ -328,17 +328,24 @@ body {
             }
           }
           #search {
-            margin-left: -25px;
+            margin-left: 115px;
             margin-top: -5px;
-            border-color: #000000;
+            border: none;
             z-index: 1;
-            width: 260px;
+            width: 120px;
             height: 40px;
             padding-right: 40px;
+            box-shadow: none;
+          }
+          #search::-webkit-input-placeholder {
+            color: #000000;
+          }
+          #saerch:-moz-placeholder {
+            color: #000000;
           }
           .search-icon {
-            margin-left: -30px;
-            margin-top: 7px;
+            margin-left: -127px;
+            margin-top: 5px;
             font-size: 20px;
             position: absolute;
           }
@@ -1547,14 +1554,14 @@ body {
       color: #313131;
       font-size: 25px;
     }
-    .sub-title{
+    .sub-title {
       display: block;
       width: 100%;
       text-align: center;
       margin-top: 30px;
       font-size: 25px;
     }
-    .to-main{
+    .to-main {
       display: block;
       width: 100%;
       text-align: center;

@@ -307,16 +307,21 @@ body {
           body .page .header .menu .menu-items #with-dr:hover ul {
             visibility: visible; }
           body .page .header .menu .menu-items #search {
-            margin-left: -25px;
+            margin-left: 115px;
             margin-top: -5px;
-            border-color: #000000;
+            border: none;
             z-index: 1;
-            width: 260px;
+            width: 120px;
             height: 40px;
-            padding-right: 40px; }
+            padding-right: 40px;
+            box-shadow: none; }
+          body .page .header .menu .menu-items #search::-webkit-input-placeholder {
+            color: #000000; }
+          body .page .header .menu .menu-items #saerch:-moz-placeholder {
+            color: #000000; }
           body .page .header .menu .menu-items .search-icon {
-            margin-left: -30px;
-            margin-top: 7px;
+            margin-left: -127px;
+            margin-top: 5px;
             font-size: 20px;
             position: absolute; }
     body .page .banner {
