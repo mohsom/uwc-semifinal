@@ -3,6 +3,7 @@
 @import "big-screen";
 @import "small-screen";
 @import "var/_var";
+
 body {
   font-family: $font;
   font-size: 16px;
@@ -1173,7 +1174,7 @@ body {
                 padding-top: 2px;
               }
               .ch-active:after {
-                content:'\2713'
+                content: '\2713'
               }
               .cb-label {
                 display: inline-block;
@@ -1512,6 +1513,52 @@ body {
           }
         }
       }
+    }
+  }
+  .notf-body {
+    display: block;
+    .nichosi {
+      display: block;
+      margin: 60px auto 0 auto;
+      z-index: 1;
+    }
+    .notf-main-block {
+      display: block;
+      width: 590px;
+      height: 250px;
+      margin: -30px auto 0 auto;
+      -webkit-box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+      z-index: 2;
+      img {
+        display: block;
+        margin: 30px auto;
+      }
+    }
+    .title {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 40px;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: #313131;
+      font-size: 25px;
+    }
+    .sub-title{
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 25px;
+    }
+    .to-main{
+      display: block;
+      width: 100%;
+      text-align: center;
+      text-decoration: underline;
+      font-weight: 600;
     }
   }
 }

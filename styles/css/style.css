@@ -1272,5 +1272,44 @@ body {
             display: block;
             margin-top: 55px;
             margin-left: 3px; }
+  body .notf-body {
+    display: block; }
+    body .notf-body .nichosi {
+      display: block;
+      margin: 60px auto 0 auto;
+      z-index: 1; }
+    body .notf-body .notf-main-block {
+      display: block;
+      width: 590px;
+      height: 250px;
+      margin: -30px auto 0 auto;
+      -webkit-box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+      z-index: 2; }
+      body .notf-body .notf-main-block img {
+        display: block;
+        margin: 30px auto; }
+    body .notf-body .title {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 40px;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: #313131;
+      font-size: 25px; }
+    body .notf-body .sub-title {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 25px; }
+    body .notf-body .to-main {
+      display: block;
+      width: 100%;
+      text-align: center;
+      text-decoration: underline;
+      font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
