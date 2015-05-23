@@ -10,7 +10,8 @@ module.exports = function (grunt) {
                 files: {
                     'build/index.html': 'index.html',
                     'build/catalogue.html': 'catalogue.html',
-                    'build/product-page.html': 'product-page.html'
+                    'build/product-page.html': 'product-page.html',
+                    'build/search.html': 'search.html'
                 }
             }
         },
